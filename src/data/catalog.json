@@ -1,0 +1,813 @@
+[
+  {
+    "id": "5-amino-1mq-10mg",
+    "name": "5-AMINO-1MQ",
+    "strength": "10mg",
+    "purity": "99.0%",
+    "formula": "C10H11N2",
+    "mass": "159.2 g/mol",
+    "cas": "42464-96-0",
+    "description": "5-AMINO-1MQ is a small-molecule compound investigated for its role in inhibiting the NNMT (nicotinamide N-methyltransferase) enzyme, which is involved in cellular metabolic pathways and energy regulation.",
+    "solubility": "H2O: 10 mg/mL; DMSO: 5 mg/mL",
+    "storage": "-20°C for 3 years; 4°C for 6 months",
+    "form": "Lyophilized powder",
+    "shipping": "Room temperature in continental US",
+    "coaUrl": "/docs/coa/sample.pdf",
+    "sequence": "Gly-Glu-Pro-Pro-Pro-Gly-Lys-Pro-Ala-Asp-Asp-Ala-Gly-Leu-Val",
+    "smiles": "C1=CC=CC=C1",
+    "inchiKey": "BSYNRYMUTXBXSQ-UHFFFAOYSA-N",
+    "pubchemCid": 10252,
+    "researchApplications": [
+      {
+        "label": "Target",
+        "value": "Gastric pentadecapeptide"
+      },
+      {
+        "label": "Pathway",
+        "value": "Angiogenesis modulation, VEGFR2 expression"
+      },
+      {
+        "label": "In Vitro Study",
+        "value": "Typical concentration range: 0.1 ng/mL – 10 μg/mL"
+      },
+      {
+        "label": "In Vivo Study",
+        "value": "Common dosage: 10 μg/kg (systemic)"
+      }
+    ],
+    "identifiers": [
+      {
+        "label": "PubChem CID",
+        "value": "10252"
+      },
+      {
+        "label": "Synonyms",
+        "value": "Bepecin, PL 14736, PL-10"
+      },
+      {
+        "label": "Source",
+        "value": "Synthetic"
+      },
+      {
+        "label": "Appearance",
+        "value": "White to off-white crystalline powder"
+      }
+    ],
+    "category": "Peptide",
+    "image": "/images/products/5-AMINO-1MQ/5-AMINO-1MQ.png",
+    "overview": "5-AMINO-1MQ is a small-molecule compound investigated for its role in inhibiting the NNMT (nicotinamide N-methyltransferase) enzyme, which is involved in cellular metabolic pathways and energy regulation.",
+    "technicalData": "Purity: 99.0% | Formula: C10H11N2 | Molecular Mass: 159.2 g/mol | CAS: 42464-96-0 | Form: Lyophilized powder | Solubility: H2O: 10 mg/mL; DMSO: 5 mg/mL | Storage: -20°C for 3 years; 4°C for 6 months | Shipping: Room temperature in continental US",
+    "safetyInfo": "For research and educational use only. Not for human or veterinary use. Handle materials using appropriate laboratory controls and institutional protocols."
+  },
+  {
+    "id": "bpc-157",
+    "name": "BPC-157",
+    "strength": "10mg",
+    "purity": "99.0%",
+    "formula": "C62H98N16O22",
+    "mass": "1419.5 g/mol",
+    "cas": "137525-51-0",
+    "description": "BPC-157 is a synthetic peptide investigated for its role in cellular proliferation models and cytokine pathway modulation. Research applications include studies on connective tissue matrices, gastric mucosal cellular models, and vascular formation pathways.",
+    "solubility": "H2O: 10 mg/mL; DMSO: 5 mg/mL",
+    "storage": "-20°C for 3 years; 4°C for 6 months",
+    "form": "Lyophilized powder",
+    "shipping": "Room temperature in continental US",
+    "coaUrl": "/docs/coa/bpc157_sample.pdf",
+    "sequence": "Gly-Glu-Pro-Pro-Pro-Gly-Lys-Pro-Ala-Asp-Asp-Ala-Gly-Leu-Val",
+    "smiles": "CC(C)CC(C(=O)NC(C(C)C)C(=O)O)NC(=O)CNC(=O)C(C)NC(=O)C(CC(=O)O)NC(=O)C(CC(=O)O)NC(=O)C(C)NC(=O)C1CCCN1C(=O)C(CCCCN)NC(=O)CNC(=O)C2CCCN2C(=O)C3CCCN3C(=O)C4CCCN4C(=O)C(CCC(=O)O)NC(=O)CN",
+    "inchiKey": "HEEWEZGQMLZMFE-RKGINYAYSA-N",
+    "researchApplications": [
+      {
+        "label": "Target",
+        "value": "Gastric pentadecapeptide"
+      },
+      {
+        "label": "Pathway",
+        "value": "Angiogenesis modulation, VEGFR2 expression"
+      },
+      {
+        "label": "In Vitro Study",
+        "value": "Typical concentration range: 0.1 ng/mL – 10 μg/mL"
+      },
+      {
+        "label": "In Vivo Study",
+        "value": "Common dosage: 10 μg/kg (systemic)"
+      }
+    ],
+    "identifiers": [
+      {
+        "label": "PubChem CID",
+        "value": "9941957"
+      },
+      {
+        "label": "Synonyms",
+        "value": "Bepecin, PL 14736, PL-10"
+      },
+      {
+        "label": "Source",
+        "value": "Synthetic"
+      },
+      {
+        "label": "Appearance",
+        "value": "White to off-white crystalline powder"
+      },
+      {
+        "label": "IUPAC Name",
+        "value": "(4S)-4-[(2-aminoacetyl)amino]-5-[(2S)-2-[(2S)-2-[(2S)-2-[[2-[[(2S)-6-amino-1-[(2S)-2-[[(2S)-1-[[(2S)-3-carboxy-1-[[(2S)-3-carboxy-1-[[(2S)-1-[[2-[[(2S)-1-[[(1S)-1-carboxy-2-methylpropyl]amino]-4-methyl-1-oxopentan-2-yl]amino]-2-oxoethyl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]carbamoyl]pyrrolidin-1-yl]-1-oxohexan-2-yl]amino]-2-oxoethyl]carbamoyl]pyrrolidine-1-carbonyl]pyrrolidine-1-carbonyl]pyrrolidin-1-yl]-5-oxopentanoic acid"
+      }
+    ],
+    "category": "Peptide",
+    "image": "/images/products/BPC-157/BPC-157.png",
+    "overview": "BPC-157 is a synthetic peptide investigated for its role in cellular proliferation models and cytokine pathway modulation. Research applications include studies on connective tissue matrices, gastric mucosal cellular models, and vascular formation pathways.",
+    "technicalData": "Purity: 99.0% | Formula: C62H98N16O22 | Molecular Mass: 1419.5 g/mol | CAS: 137525-51-0 | Form: Lyophilized powder | Solubility: H2O: 10 mg/mL; DMSO: 5 mg/mL | Storage: -20°C for 3 years; 4°C for 6 months | Shipping: Room temperature in continental US",
+    "safetyInfo": "For research and educational use only. Not for human or veterinary use. Handle materials using appropriate laboratory controls and institutional protocols.",
+    "pubchemCid": 9941957,
+    "iupacName": "(4S)-4-[(2-aminoacetyl)amino]-5-[(2S)-2-[(2S)-2-[(2S)-2-[[2-[[(2S)-6-amino-1-[(2S)-2-[[(2S)-1-[[(2S)-3-carboxy-1-[[(2S)-3-carboxy-1-[[(2S)-1-[[2-[[(2S)-1-[[(1S)-1-carboxy-2-methylpropyl]amino]-4-methyl-1-oxopentan-2-yl]amino]-2-oxoethyl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]carbamoyl]pyrrolidin-1-yl]-1-oxohexan-2-yl]amino]-2-oxoethyl]carbamoyl]pyrrolidine-1-carbonyl]pyrrolidine-1-carbonyl]pyrrolidin-1-yl]-5-oxopentanoic acid"
+  },
+  {
+    "id": "cjc-1295-10mg",
+    "name": "CJC-1295",
+    "strength": "10mg",
+    "purity": "99.0%",
+    "formula": "C165H269N47O46",
+    "mass": "3647.2 g/mol",
+    "cas": "863288-34-0",
+    "description": "CJC-1295 is a growth hormone-releasing hormone (GHRH) analog investigated for its role in stimulating natural growth hormone production pathways. Widely utilized in study of muscle development models, lipid metabolic pathways, and recovery process analysis.",
+    "category": "Peptide",
+    "image": "/images/products/CJC-1295/CJC-1295.png",
+    "overview": "CJC-1295 is a growth hormone-releasing hormone (GHRH) analog investigated for its role in stimulating natural growth hormone production pathways. Widely utilized in study of muscle development models, lipid metabolic pathways, and recovery process analysis.",
+    "technicalData": "Purity: 99.0% | Formula: C165H269N47O46 | Molecular Mass: 3647.2 g/mol | CAS: 863288-34-0",
+    "safetyInfo": "For research and educational use only. Not for human or veterinary use. Handle materials using appropriate laboratory controls and institutional protocols.",
+    "smiles": "CCC(C)C(C(=O)NC(CC1=CC=CC=C1)C(=O)NC(C(C)O)C(=O)NC(CCC(=O)N)C(=O)NC(CO)C(=O)NC(CC2=CC=C(C=C2)O)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(C(C)C)C(=O)NC(CC(C)C)C(=O)NC(C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(=O)O)C(=O)NC(C(C)CC)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCNC(=O)CCN3C(=O)C=CC3=O)C(=O)N)NC(=O)C(C)NC(=O)C(CC(=O)O)NC(=O)C(C)NC(=O)C(CC4=CC=C(C=C4)O)N",
+    "inchiKey": "ZUQGTWKGESAQCD-ZGFIGYLBSA-N",
+    "pubchemCid": 91971820,
+    "identifiers": [
+      {
+        "label": "PubChem CID",
+        "value": "91971820"
+      },
+      {
+        "label": "IUPAC Name",
+        "value": "(3S)-4-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S,3R)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-amino-6-[3-(2,5-dioxopyrrol-1-yl)propanoylamino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-3-carboxy-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-methyl-1-oxobutan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-3-hydroxy-1-oxobutan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-[[(2R)-2-[[(2S)-2-amino-3-(4-hydroxyphenyl)propanoyl]amino]propanoyl]amino]-4-oxobutanoic acid"
+      }
+    ],
+    "iupacName": "(3S)-4-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S,3R)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-amino-6-[3-(2,5-dioxopyrrol-1-yl)propanoylamino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-3-carboxy-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-methyl-1-oxobutan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-3-hydroxy-1-oxobutan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-[[(2R)-2-[[(2S)-2-amino-3-(4-hydroxyphenyl)propanoyl]amino]propanoyl]amino]-4-oxobutanoic acid"
+  },
+  {
+    "id": "ghk-cu-100mg",
+    "name": "GHK-Cu",
+    "strength": "100mg",
+    "purity": "99.0%",
+    "formula": "C28H46CuN12O8",
+    "mass": "742.3 g/mol",
+    "cas": "49557-75-7",
+    "description": "GHK-Cu (Copper Peptide) is a naturally occurring copper-binding peptide utilized in study of dermal cellular models, collagen synthesis pathways, and extracellular matrix research.",
+    "category": "Peptide",
+    "image": "/images/products/GHK-Cu/GHK-Cu.png",
+    "overview": "GHK-Cu (Copper Peptide) is a naturally occurring copper-binding peptide utilized in study of dermal cellular models, collagen synthesis pathways, and extracellular matrix research.",
+    "technicalData": "Purity: 99.0% | Formula: C28H46CuN12O8 | Molecular Mass: 742.3 g/mol | CAS: 49557-75-7",
+    "safetyInfo": "For research and educational use only. Not for human or veterinary use. Handle materials using appropriate laboratory controls and institutional protocols.",
+    "smiles": "C1=C(NC=N1)CC(C(=O)NC(CCCCN)C(=O)[O-])NC(=O)CN.C1=C(NC=N1)CC(C(=O)NC(CCCCN)C(=O)[O-])NC(=O)CN.[Cu+2]",
+    "inchiKey": "YINACRBQQGZRRM-XTQNZXNBSA-L",
+    "pubchemCid": 9831891,
+    "identifiers": [
+      {
+        "label": "PubChem CID",
+        "value": "9831891"
+      },
+      {
+        "label": "IUPAC Name",
+        "value": "copper bis((2S)-6-amino-2-[[(2S)-2-[(2-aminoacetyl)amino]-3-(1H-imidazol-5-yl)propanoyl]amino]hexanoate)"
+      }
+    ],
+    "iupacName": "copper bis((2S)-6-amino-2-[[(2S)-2-[(2-aminoacetyl)amino]-3-(1H-imidazol-5-yl)propanoyl]amino]hexanoate)"
+  },
+  {
+    "id": "glow-70mg",
+    "name": "GLOW",
+    "strength": "70mg",
+    "purity": "99.0%",
+    "formula": "Proprietary Multi-Peptide Blend",
+    "mass": "Composite blend profile (batch-specific)",
+    "cas": "Blend constituents (batch-specific profile)",
+    "description": "GLOW is a multi-peptide blend utilized in study of dermal quality models, hydration pathways, collagen synthesis, and overall skin cellular rejuvenation research.",
+    "category": "Peptide",
+    "image": "/images/products/GLOW/GLOW.png",
+    "overview": "GLOW is a multi-peptide blend utilized in study of dermal quality models, hydration pathways, collagen synthesis, and overall skin cellular rejuvenation research.",
+    "technicalData": "Purity: 99.0% | Formula: Proprietary Multi-Peptide Blend | Molecular Mass: Composite blend profile (batch-specific) | CAS: Blend constituents (batch-specific profile) | Form: Lyophilized powder blend | Solubility: Reconstitute according to validated institutional protocol | Storage: -20°C recommended | Shipping: Room temperature in continental US",
+    "safetyInfo": "For research and educational use only. Not for human or veterinary use. Handle materials using appropriate laboratory controls and institutional protocols."
+  },
+  {
+    "id": "glutathione-1500mg",
+    "name": "Glutathione",
+    "strength": "1500mg",
+    "purity": "99.0%",
+    "formula": "C10H17N3O6S",
+    "mass": "307.33 g/mol",
+    "cas": "Pending Verification",
+    "description": "Glutathione is a naturally occurring antioxidant composed of three amino acids: glutamine, cysteine, and glycine. Widely investigated for its role in cellular protection models, oxidative stress pathways, and antioxidant research.",
+    "category": "Peptide",
+    "image": "/images/products/Glutathione/Glutathione.png",
+    "overview": "Glutathione is a naturally occurring antioxidant composed of three amino acids: glutamine, cysteine, and glycine. Widely investigated for its role in cellular protection models, oxidative stress pathways, and antioxidant research.",
+    "technicalData": "Purity: 99.0% | Formula: C10H17N3O6S | Molecular Mass: 307.33 g/mol | CAS: Pending Verification",
+    "safetyInfo": "For research and educational use only. Not for human or veterinary use. Handle materials using appropriate laboratory controls and institutional protocols.",
+    "smiles": "C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N",
+    "inchiKey": "RWSXRVCMGQZWBV-WDSKDSINSA-N",
+    "pubchemCid": 124886,
+    "identifiers": [
+      {
+        "label": "PubChem CID",
+        "value": "124886"
+      },
+      {
+        "label": "IUPAC Name",
+        "value": "(2S)-2-amino-5-[[(2R)-1-(carboxymethylamino)-1-oxo-3-sulfanylpropan-2-yl]amino]-5-oxopentanoic acid"
+      }
+    ],
+    "iupacName": "(2S)-2-amino-5-[[(2R)-1-(carboxymethylamino)-1-oxo-3-sulfanylpropan-2-yl]amino]-5-oxopentanoic acid"
+  },
+  {
+    "id": "ipamorelin-10mg",
+    "name": "IPAMORELIN",
+    "strength": "10mg",
+    "purity": "99.0%",
+    "formula": "C38H49N9O5",
+    "mass": "711.9 g/mol",
+    "cas": "Pending Verification",
+    "description": "Ipamorelin is a selective growth hormone secretagogue investigated for its role in stimulating natural growth hormone release pathways. Widely utilized in study of muscle cellular models, lipid metabolic pathways, and sleep cycle research.",
+    "category": "Peptide",
+    "image": "/images/products/IPAMORELIN/IPAMORELIN.png",
+    "overview": "Ipamorelin is a selective growth hormone secretagogue investigated for its role in stimulating natural growth hormone release pathways. Widely utilized in study of muscle cellular models, lipid metabolic pathways, and sleep cycle research.",
+    "technicalData": "Purity: 99.0% | Formula: C38H49N9O5 | Molecular Mass: 711.9 g/mol | CAS: Pending Verification",
+    "safetyInfo": "For research and educational use only. Not for human or veterinary use. Handle materials using appropriate laboratory controls and institutional protocols.",
+    "smiles": "CC(C)(C(=O)NC(CC1=CN=CN1)C(=O)NC(CC2=CC3=CC=CC=C3C=C2)C(=O)NC(CC4=CC=CC=C4)C(=O)NC(CCCCN)C(=O)N)N",
+    "inchiKey": "NEHWBYHLYZGBNO-BVEPWEIPSA-N",
+    "pubchemCid": 9831659,
+    "identifiers": [
+      {
+        "label": "PubChem CID",
+        "value": "9831659"
+      },
+      {
+        "label": "IUPAC Name",
+        "value": "(2S)-6-amino-2-[[(2R)-2-[[(2R)-2-[[(2S)-2-[(2-amino-2-methylpropanoyl)amino]-3-(1H-imidazol-5-yl)propanoyl]amino]-3-naphthalen-2-ylpropanoyl]amino]-3-phenylpropanoyl]amino]hexanamide"
+      }
+    ],
+    "iupacName": "(2S)-6-amino-2-[[(2R)-2-[[(2R)-2-[[(2S)-2-[(2-amino-2-methylpropanoyl)amino]-3-(1H-imidazol-5-yl)propanoyl]amino]-3-naphthalen-2-ylpropanoyl]amino]-3-phenylpropanoyl]amino]hexanamide"
+  },
+  {
+    "id": "kisspeptin-10mg",
+    "name": "KISSPEPTIN",
+    "strength": "10mg",
+    "purity": "99.0%",
+    "formula": "C258H401N79O78",
+    "mass": "5857 g/mol",
+    "cas": "Pending Verification",
+    "description": "KISSPEPTIN is a synthetic peptide fragment of the naturally occurring kisspeptin hormone. Investigated for its role in the regulation of the hypothalamic-pituitary-gonadal (HPG) axis and its influence on hormonal signaling research.",
+    "category": "Peptide",
+    "image": "/images/products/KISSPEPTIN/KISSPEPTIN.png",
+    "overview": "KISSPEPTIN is a synthetic peptide fragment of the naturally occurring kisspeptin hormone. Investigated for its role in the regulation of the hypothalamic-pituitary-gonadal (HPG) axis and its influence on hormonal signaling research.",
+    "technicalData": "Purity: 99.0% | Formula: C258H401N79O78 | Molecular Mass: 5857 g/mol | CAS: Pending Verification",
+    "safetyInfo": "For research and educational use only. Not for human or veterinary use. Handle materials using appropriate laboratory controls and institutional protocols.",
+    "smiles": "CCC(C)C(C(=O)N1CCCC1C(=O)NC(C)C(=O)N2CCCC2C(=O)NC(CCC(=O)N)C(=O)NCC(=O)NC(C)C(=O)NC(C(C)C)C(=O)NC(CC(C)C)C(=O)NC(C(C)C)C(=O)NC(CCC(=O)N)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCC(=O)O)C(=O)NC(CCCCN)C(=O)NC(CC(=O)O)C(=O)NC(CC(C)C)C(=O)N3CCCC3C(=O)NC(CC(=O)N)C(=O)NC(CC4=CC=C(C=C4)O)C(=O)NC(CC(=O)N)C(=O)NC(CC5=CNC6=CC=CC=C65)C(=O)NC(CC(=O)N)C(=O)NC(CO)C(=O)NC(CC7=CC=CC=C7)C(=O)NCC(=O)NC(CC(C)C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CC8=CC=CC=C8)C(=O)N)NC(=O)C(CCC(=O)N)NC(=O)C(CCCNC(=N)N)NC(=O)C(CO)NC(=O)C(CC9=CN=CN9)NC(=O)C1CCCN1C(=O)C(C)NC(=O)C(CO)NC(=O)C(CC(C)C)NC(=O)CNC(=O)C1CCCN1C(=O)C(CCC(=O)N)NC(=O)C(CCC(=O)N)NC(=O)C(CCCNC(=N)N)NC(=O)C(CO)NC(=O)CNC(=O)C(CO)NC(=O)C(CO)NC(=O)C(CCC(=O)O)NC(=O)C1CCCN1C(=O)C1CCCN1C(=O)C1CCCN1C(=O)C(CO)NC(=O)C(CC(C)C)NC(=O)C(CO)NC(=O)C(C(C)O)NC(=O)CN",
+    "inchiKey": "KAHDONZOCXSKII-NJVVDGNHSA-N",
+    "pubchemCid": 71306396,
+    "identifiers": [
+      {
+        "label": "PubChem CID",
+        "value": "71306396"
+      },
+      {
+        "label": "IUPAC Name",
+        "value": "(4S)-4-[[(2S)-1-[(2S)-1-[(2S)-1-[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S,3R)-2-[(2-aminoacetyl)amino]-3-hydroxybutanoyl]amino]-3-hydroxypropanoyl]amino]-4-methylpentanoyl]amino]-3-hydroxypropanoyl]pyrrolidine-2-carbonyl]pyrrolidine-2-carbonyl]pyrrolidine-2-carbonyl]amino]-5-[[(2S)-1-[[(2S)-1-[[2-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-5-amino-1-[(2S)-2-[[2-[[(2S)-1-[[(2S)-1-[[(2S)-1-[(2S)-2-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S,3S)-1-[(2S)-2-[[(2S)-1-[(2S)-2-[[(2S)-5-amino-1-[[2-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[(2S)-2-[[(2S)-4-amino-1-[[(2S)-1-[[(2S)-4-amino-1-[[(2S)-1-[[(2S)-4-amino-1-[[(2S)-1-[[(2S)-1-[[2-[[(2S)-1-[[(2S)-1-[[(2S)-1-amino-1-oxo-3-phenylpropan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-2-oxoethyl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-1,4-dioxobutan-2-yl]amino]-3-(1H-indol-3-yl)-1-oxopropan-2-yl]amino]-1,4-dioxobutan-2-yl]amino]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-1,4-dioxobutan-2-yl]carbamoyl]pyrrolidin-1-yl]-4-methyl-1-oxopentan-2-yl]amino]-3-carboxy-1-oxopropan-2-yl]amino]-1-oxohexan-2-yl]amino]-4-carboxy-1-oxobutan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-3-methyl-1-oxobutan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-methyl-1-oxobutan-2-yl]amino]-1-oxopropan-2-yl]amino]-2-oxoethyl]amino]-1,5-dioxopentan-2-yl]carbamoyl]pyrrolidin-1-yl]-1-oxopropan-2-yl]carbamoyl]pyrrolidin-1-yl]-3-methyl-1-oxopentan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-3-(1H-imidazol-5-yl)-1-oxopropan-2-yl]carbamoyl]pyrrolidin-1-yl]-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-2-oxoethyl]carbamoyl]pyrrolidin-1-yl]-1,5-dioxopentan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-2-oxoethyl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-5-oxopentanoic acid"
+      }
+    ],
+    "iupacName": "(4S)-4-[[(2S)-1-[(2S)-1-[(2S)-1-[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S,3R)-2-[(2-aminoacetyl)amino]-3-hydroxybutanoyl]amino]-3-hydroxypropanoyl]amino]-4-methylpentanoyl]amino]-3-hydroxypropanoyl]pyrrolidine-2-carbonyl]pyrrolidine-2-carbonyl]pyrrolidine-2-carbonyl]amino]-5-[[(2S)-1-[[(2S)-1-[[2-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-5-amino-1-[(2S)-2-[[2-[[(2S)-1-[[(2S)-1-[[(2S)-1-[(2S)-2-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S,3S)-1-[(2S)-2-[[(2S)-1-[(2S)-2-[[(2S)-5-amino-1-[[2-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[(2S)-2-[[(2S)-4-amino-1-[[(2S)-1-[[(2S)-4-amino-1-[[(2S)-1-[[(2S)-4-amino-1-[[(2S)-1-[[(2S)-1-[[2-[[(2S)-1-[[(2S)-1-[[(2S)-1-amino-1-oxo-3-phenylpropan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-2-oxoethyl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-1,4-dioxobutan-2-yl]amino]-3-(1H-indol-3-yl)-1-oxopropan-2-yl]amino]-1,4-dioxobutan-2-yl]amino]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-1,4-dioxobutan-2-yl]carbamoyl]pyrrolidin-1-yl]-4-methyl-1-oxopentan-2-yl]amino]-3-carboxy-1-oxopropan-2-yl]amino]-1-oxohexan-2-yl]amino]-4-carboxy-1-oxobutan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-3-methyl-1-oxobutan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-methyl-1-oxobutan-2-yl]amino]-1-oxopropan-2-yl]amino]-2-oxoethyl]amino]-1,5-dioxopentan-2-yl]carbamoyl]pyrrolidin-1-yl]-1-oxopropan-2-yl]carbamoyl]pyrrolidin-1-yl]-3-methyl-1-oxopentan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-3-(1H-imidazol-5-yl)-1-oxopropan-2-yl]carbamoyl]pyrrolidin-1-yl]-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-2-oxoethyl]carbamoyl]pyrrolidin-1-yl]-1,5-dioxopentan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-2-oxoethyl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-5-oxopentanoic acid"
+  },
+  {
+    "id": "klow-80mg",
+    "name": "KLOW",
+    "strength": "80mg",
+    "purity": "99.0%",
+    "formula": "Proprietary Multi-Peptide Blend",
+    "mass": "Composite blend profile (batch-specific)",
+    "cas": "Blend constituents (batch-specific profile)",
+    "description": "KLOW is a research peptide blend formulated for studies focused on cellular proliferation models, cytokine pathway modulation, and dermal cellular analysis.Peptide Blend (Total 80mg):\nGHK-Cu - 50mg\nTB-4 - 10mg\nBPC-157 - 10mg\nKPV - 10mg",
+    "category": "Peptide",
+    "image": "/images/products/KLOW/KLOW.png",
+    "overview": "KLOW is a research peptide blend formulated for studies focused on cellular proliferation models, cytokine pathway modulation, and dermal cellular analysis.Peptide Blend (Total 80mg):\nGHK-Cu - 50mg\nTB-4 - 10mg\nBPC-157 - 10mg\nKPV - 10mg",
+    "technicalData": "Purity: 99.0% | Formula: Proprietary Multi-Peptide Blend | Molecular Mass: Composite blend profile (batch-specific) | CAS: Blend constituents (batch-specific profile) | Form: Lyophilized powder blend | Solubility: Reconstitute according to validated institutional protocol | Storage: -20°C recommended | Shipping: Room temperature in continental US",
+    "safetyInfo": "For research and educational use only. Not for human or veterinary use. Handle materials using appropriate laboratory controls and institutional protocols."
+  },
+  {
+    "id": "l-carnitine-1200mg",
+    "name": "L-CARNITINE",
+    "strength": "1200 mg",
+    "purity": "99.0%",
+    "formula": "C7H15NO3",
+    "mass": "161.2 g/mol",
+    "cas": "Pending Verification",
+    "description": "L-CARNITINE is a naturally occurring amino acid derivative investigated for its role in fatty acid transport and energy production within cellular models. Widely utilized in study of lipid metabolic pathways, exercise performance models, and mitochondrial cellular function.",
+    "category": "Peptide",
+    "image": "/images/products/L-CARNITINE/L-CARNITINE.png",
+    "overview": "L-CARNITINE is a naturally occurring amino acid derivative investigated for its role in fatty acid transport and energy production within cellular models. Widely utilized in study of lipid metabolic pathways, exercise performance models, and mitochondrial cellular function.",
+    "technicalData": "Purity: 99.0% | Formula: C7H15NO3 | Molecular Mass: 161.2 g/mol | CAS: Pending Verification",
+    "safetyInfo": "For research and educational use only. Not for human or veterinary use. Handle materials using appropriate laboratory controls and institutional protocols.",
+    "smiles": "C[N+](C)(C)CC(CC(=O)[O-])O",
+    "inchiKey": "PHIQHXFUZVPYII-ZCFIWIBFSA-N",
+    "pubchemCid": 10917,
+    "identifiers": [
+      {
+        "label": "PubChem CID",
+        "value": "10917"
+      },
+      {
+        "label": "IUPAC Name",
+        "value": "(3R)-3-hydroxy-4-(trimethylazaniumyl)butanoate"
+      }
+    ],
+    "iupacName": "(3R)-3-hydroxy-4-(trimethylazaniumyl)butanoate"
+  },
+  {
+    "id": "lipo-c-10mg",
+    "name": "LIPO-C",
+    "strength": "10 ml",
+    "purity": "99.0%",
+    "formula": "Proprietary Lipotropic Complex",
+    "mass": "Composite profile (batch-specific)",
+    "cas": "Blend constituents (batch-specific profile)",
+    "description": "LIPO-C is a research blend containing lipotropic compounds commonly investigated for their role in lipid metabolic pathways, energy production, and hepatic metabolic pathway analysis. Frequently utilized in study of metabolic efficiency and body composition models.",
+    "category": "Peptide",
+    "image": "/images/products/LIPO-C/LIPO-C.png",
+    "overview": "LIPO-C is a research blend containing lipotropic compounds commonly investigated for their role in lipid metabolic pathways, energy production, and hepatic metabolic pathway analysis. Frequently utilized in study of metabolic efficiency and body composition models.",
+    "technicalData": "Purity: 99.0% | Formula: Proprietary Lipotropic Complex | Molecular Mass: Composite profile (batch-specific) | CAS: Blend constituents (batch-specific profile) | Form: Injectable research blend | Solubility: Ready-to-use aqueous complex | Storage: 2-8°C preferred after opening | Shipping: Temperature-managed logistics",
+    "safetyInfo": "For research and educational use only. Not for human or veterinary use. Handle materials using appropriate laboratory controls and institutional protocols."
+  },
+  {
+    "id": "mots-c-15mg",
+    "name": "MOTS-c",
+    "strength": "15mg",
+    "purity": "99.0%",
+    "formula": "C101H152N28O22S2",
+    "mass": "2174.6 g/mol",
+    "cas": "Pending Verification",
+    "description": "MOTS-c is a mitochondrial-derived peptide investigated for its potential effects on metabolic regulation, energy balance, and cellular function models. Commonly utilized in study of glucose metabolic pathways, lipid utilization, and exercise-related performance research.",
+    "category": "Peptide",
+    "image": "/images/products/MOTS-c/MOTS-c.png",
+    "overview": "MOTS-c is a mitochondrial-derived peptide investigated for its potential effects on metabolic regulation, energy balance, and cellular function models. Commonly utilized in study of glucose metabolic pathways, lipid utilization, and exercise-related performance research.",
+    "technicalData": "Purity: 99.0% | Formula: C101H152N28O22S2 | Molecular Mass: 2174.6 g/mol | CAS: Pending Verification",
+    "safetyInfo": "For research and educational use only. Not for human or veterinary use. Handle materials using appropriate laboratory controls and institutional protocols.",
+    "smiles": "CCC(C)C(C(=O)NC(CC1=CC=CC=C1)C(=O)NC(CC2=CC=C(C=C2)O)C(=O)N3CCCC3C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CCCNC(=N)N)C(=O)O)NC(=O)C(CC4=CC=C(C=C4)O)NC(=O)CNC(=O)C(CCSC)NC(=O)C(CCC(=O)O)NC(=O)C(CCC(=O)N)NC(=O)C(CC5=CNC6=CC=CC=C65)NC(=O)C(CCCNC(=N)N)NC(=O)C(CCSC)N",
+    "inchiKey": "WYTHCOXVWRKRAH-LOKRTKBUSA-N",
+    "pubchemCid": 146675088,
+    "identifiers": [
+      {
+        "label": "PubChem CID",
+        "value": "146675088"
+      },
+      {
+        "label": "IUPAC Name",
+        "value": "(4S)-4-[[(2S)-5-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-amino-4-methylsulfanylbutanoyl]amino]-5-carbamimidamidopentanoyl]amino]-3-(1H-indol-3-yl)propanoyl]amino]-5-oxopentanoyl]amino]-5-[[(2S)-1-[[2-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S)-1-[(2S)-2-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(1S)-4-carbamimidamido-1-carboxybutyl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]carbamoyl]pyrrolidin-1-yl]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-2-oxoethyl]amino]-4-methylsulfanyl-1-oxobutan-2-yl]amino]-5-oxopentanoic acid"
+      }
+    ],
+    "iupacName": "(4S)-4-[[(2S)-5-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-amino-4-methylsulfanylbutanoyl]amino]-5-carbamimidamidopentanoyl]amino]-3-(1H-indol-3-yl)propanoyl]amino]-5-oxopentanoyl]amino]-5-[[(2S)-1-[[2-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S)-1-[(2S)-2-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(1S)-4-carbamimidamido-1-carboxybutyl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]carbamoyl]pyrrolidin-1-yl]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-2-oxoethyl]amino]-4-methylsulfanyl-1-oxobutan-2-yl]amino]-5-oxopentanoic acid"
+  },
+  {
+    "id": "nad-plus-700mg",
+    "name": "NAD+",
+    "strength": "700mg",
+    "purity": "99.0%",
+    "formula": "C21H27N7O14P2",
+    "mass": "663.4 g/mol",
+    "cas": "53-84-9",
+    "description": "NAD+ (Nicotinamide Adenine Dinucleotide) is a coenzyme involved in cellular redox reactions and energy metabolism. Commonly utilized in research focused on mitochondrial function, oxidative stress pathways, and cellular signaling models.",
+    "category": "Peptide",
+    "image": "/images/products/NAD+/NAD+700mg.png",
+    "overview": "NAD+ (Nicotinamide Adenine Dinucleotide) is a coenzyme involved in cellular redox reactions and energy metabolism. Commonly utilized in research focused on mitochondrial function, oxidative stress pathways, and cellular signaling models.",
+    "technicalData": "Purity: 99.0% | Formula: C21H27N7O14P2 | Molecular Mass: 663.4 g/mol | CAS: 53-84-9",
+    "safetyInfo": "For research and educational use only. Not for human or veterinary use. Handle materials using appropriate laboratory controls and institutional protocols.",
+    "smiles": "C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N",
+    "inchiKey": "BAWFJGJZGIEFAR-NNYOXOHSSA-N",
+    "pubchemCid": 5892,
+    "identifiers": [
+      {
+        "label": "PubChem CID",
+        "value": "5892"
+      },
+      {
+        "label": "IUPAC Name",
+        "value": "[[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] [(2R,3S,4R,5R)-5-(3-carbamoylpyridin-1-ium-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl phosphate"
+      }
+    ],
+    "iupacName": "[[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] [(2R,3S,4R,5R)-5-(3-carbamoylpyridin-1-ium-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl phosphate"
+  },
+  {
+    "id": "nad-plus-1000mg",
+    "name": "NAD+",
+    "strength": "1000mg",
+    "purity": "99.0%",
+    "formula": "C21H27N7O14P2",
+    "mass": "663.4 g/mol",
+    "cas": "53-84-9",
+    "description": "NAD+ (Nicotinamide Adenine Dinucleotide) is a coenzyme involved in cellular redox reactions and energy metabolism. Commonly utilized in research focused on mitochondrial function, oxidative stress pathways, and cellular signaling models.",
+    "category": "Peptide",
+    "image": "/images/products/NAD+/NAD+_1000mg.png",
+    "overview": "NAD+ (Nicotinamide Adenine Dinucleotide) is a coenzyme involved in cellular redox reactions and energy metabolism. Commonly utilized in research focused on mitochondrial function, oxidative stress pathways, and cellular signaling models.",
+    "technicalData": "Purity: 99.0% | Formula: C21H27N7O14P2 | Molecular Mass: 663.4 g/mol | CAS: 53-84-9",
+    "safetyInfo": "For research and educational use only. Not for human or veterinary use. Handle materials using appropriate laboratory controls and institutional protocols.",
+    "smiles": "C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N",
+    "inchiKey": "BAWFJGJZGIEFAR-NNYOXOHSSA-N",
+    "pubchemCid": 5892,
+    "identifiers": [
+      {
+        "label": "PubChem CID",
+        "value": "5892"
+      },
+      {
+        "label": "IUPAC Name",
+        "value": "[[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] [(2R,3S,4R,5R)-5-(3-carbamoylpyridin-1-ium-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl phosphate"
+      }
+    ],
+    "iupacName": "[[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] [(2R,3S,4R,5R)-5-(3-carbamoylpyridin-1-ium-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl phosphate"
+  },
+  {
+    "id": "pt-141-10mg",
+    "name": "PT-141",
+    "strength": "10mg",
+    "purity": "99.0%",
+    "formula": "C50H68N14O10",
+    "mass": "1025.2 g/mol",
+    "cas": "189691-06-3",
+    "description": "PT-141 (Bremelanotide) is a synthetic peptide analog of alpha-melanocyte-stimulating hormone (α-MSH). Investigated for its effects on melanocortin receptors and its role in behavioral model measurement pathways.",
+    "category": "Peptide",
+    "image": "/images/products/PT-141/PT-141.png",
+    "overview": "PT-141 (Bremelanotide) is a synthetic peptide analog of alpha-melanocyte-stimulating hormone (α-MSH). Investigated for its effects on melanocortin receptors and its role in behavioral model measurement pathways.",
+    "technicalData": "Purity: 99.0% | Formula: C50H68N14O10 | Molecular Mass: 1025.2 g/mol | CAS: 189691-06-3",
+    "safetyInfo": "For research and educational use only. Not for human or veterinary use. Handle materials using appropriate laboratory controls and institutional protocols.",
+    "smiles": "CCCCC(C(=O)NC1CC(=O)NCCCCC(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC1=O)CC2=CN=CN2)CC3=CC=CC=C3)CCCN=C(N)N)CC4=CNC5=CC=CC=C54)C(=O)O)NC(=O)C",
+    "inchiKey": "FFHBJDQSGDNCIV-MFVUMRCOSA-N",
+    "pubchemCid": 9941379,
+    "identifiers": [
+      {
+        "label": "PubChem CID",
+        "value": "9941379"
+      },
+      {
+        "label": "IUPAC Name",
+        "value": "(3S,6S,9R,12S,15S,23S)-15-[[(2S)-2-acetamidohexanoyl]amino]-9-benzyl-6-[3-(diaminomethylideneamino)propyl]-12-(1H-imidazol-5-ylmethyl)-3-(1H-indol-3-ylmethyl)-2,5,8,11,14,17-hexaoxo-1,4,7,10,13,18-hexazacyclotricosane-23-carboxylic acid"
+      }
+    ],
+    "iupacName": "(3S,6S,9R,12S,15S,23S)-15-[[(2S)-2-acetamidohexanoyl]amino]-9-benzyl-6-[3-(diaminomethylideneamino)propyl]-12-(1H-imidazol-5-ylmethyl)-3-(1H-indol-3-ylmethyl)-2,5,8,11,14,17-hexaoxo-1,4,7,10,13,18-hexazacyclotricosane-23-carboxylic acid"
+  },
+  {
+    "id": "retatrutide-10mg",
+    "name": "Retatrutide",
+    "strength": "10mg",
+    "purity": "99.0%",
+    "formula": "C221H342N46O68",
+    "mass": "4731 g/mol",
+    "cas": "2381089-83-2",
+    "description": "Retatrutide is a multi-receptor peptide analog investigated for its role in metabolic pathway research, appetite signaling models, and energy balance studies.",
+    "category": "Peptide",
+    "image": "/images/products/Retatrutide/Retatrutide_10mg.png",
+    "overview": "Retatrutide is a multi-receptor peptide analog investigated for its role in metabolic pathway research, appetite signaling models, and energy balance studies.",
+    "technicalData": "Purity: 99.0% | Formula: C221H342N46O68 | Molecular Mass: 4731 g/mol | CAS: 2381089-83-2",
+    "safetyInfo": "For research and educational use only. Not for human or veterinary use. Handle materials using appropriate laboratory controls and institutional protocols.",
+    "smiles": "CCC(C)C(C(=O)NC(CCC(=O)O)C(=O)NC(CC1=CC=C(C=C1)O)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)O)C(=O)NCC(=O)NCC(=O)N2CCCC2C(=O)NC(CO)C(=O)NC(CO)C(=O)NCC(=O)NC(C)C(=O)N3CCCC3C(=O)N4CCCC4C(=O)N5CCCC5C(=O)NC(CO)C(=O)N)NC(=O)C(CC6=CC=CC=C6)NC(=O)C(C)NC(=O)C(C)(C)NC(=O)C(CCC(=O)N)NC(=O)C(C)NC(=O)C(CCCCNC(=O)COCCOCCNC(=O)CCC(C(=O)O)NC(=O)CCCCCCCCCCCCCCCCCCC(=O)O)NC(=O)C(CCCCN)NC(=O)C(CC(=O)O)NC(=O)C(CC(C)C)NC(=O)C(C)(CC(C)C)NC(=O)C(C(C)CC)NC(=O)C(CO)NC(=O)C(CC7=CC=C(C=C7)O)NC(=O)C(CC(=O)O)NC(=O)C(CO)NC(=O)C(C(C)O)NC(=O)C(CC8=CC=CC=C8)NC(=O)C(C(C)O)NC(=O)CNC(=O)C(CCC(=O)N)NC(=O)C(C)(C)NC(=O)C(CC9=CC=C(C=C9)O)N",
+    "inchiKey": "MLOLQJNKXBNWFW-SAGGEDDASA-N",
+    "pubchemCid": 171390338,
+    "identifiers": [
+      {
+        "label": "PubChem CID",
+        "value": "171390338"
+      },
+      {
+        "label": "IUPAC Name",
+        "value": "20-[[(1S)-4-[2-[2-[2-[[(5S)-5-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-2-[[(2R)-2-[[(3S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S,3R)-2-[[(2S)-2-[[(2S,3R)-2-[[2-[[(2S)-5-amino-2-[[2-[[(2S)-2-amino-3-(4-hydroxyphenyl)propanoyl]amino]-2-methylpropanoyl]amino]-5-oxopentanoyl]amino]acetyl]amino]-3-hydroxybutanoyl]amino]-3-phenylpropanoyl]amino]-3-hydroxybutanoyl]amino]-3-hydroxypropanoyl]amino]-3-carboxypropanoyl]amino]-3-(4-hydroxyphenyl)propanoyl]amino]-3-hydroxypropanoyl]amino]-3-methylpentanoyl]amino]-2,4-dimethylpentanoyl]amino]-4-methylpentanoyl]amino]-3-carboxypropanoyl]amino]hexanoyl]amino]-6-[[(2S)-1-[[(2S)-5-amino-1-[[1-[[(2S)-1-[[(2S)-1-[[(3S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[2-[[2-[(2S)-2-[[(2S)-1-[[(2S)-1-[[2-[[(2S)-1-[(2S)-2-[(2S)-2-[(2S)-2-[[(2S)-1-amino-3-hydroxy-1-oxopropan-2-yl]carbamoyl]pyrrolidine-1-carbonyl]pyrrolidine-1-carbonyl]pyrrolidin-1-yl]-1-oxopropan-2-yl]amino]-2-oxoethyl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]carbamoyl]pyrrolidin-1-yl]-2-oxoethyl]amino]-2-oxoethyl]amino]-4-carboxy-1-oxobutan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-4-carboxy-1-oxobutan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-1-oxopropan-2-yl]amino]-2-methyl-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-6-oxohexyl]amino]-2-oxoethoxy]ethoxy]ethylamino]-1-carboxy-4-oxobutyl]amino]-20-oxoicosanoic acid"
+      }
+    ],
+    "iupacName": "20-[[(1S)-4-[2-[2-[2-[[(5S)-5-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-2-[[(2R)-2-[[(3S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S,3R)-2-[[(2S)-2-[[(2S,3R)-2-[[2-[[(2S)-5-amino-2-[[2-[[(2S)-2-amino-3-(4-hydroxyphenyl)propanoyl]amino]-2-methylpropanoyl]amino]-5-oxopentanoyl]amino]acetyl]amino]-3-hydroxybutanoyl]amino]-3-phenylpropanoyl]amino]-3-hydroxybutanoyl]amino]-3-hydroxypropanoyl]amino]-3-carboxypropanoyl]amino]-3-(4-hydroxyphenyl)propanoyl]amino]-3-hydroxypropanoyl]amino]-3-methylpentanoyl]amino]-2,4-dimethylpentanoyl]amino]-4-methylpentanoyl]amino]-3-carboxypropanoyl]amino]hexanoyl]amino]-6-[[(2S)-1-[[(2S)-5-amino-1-[[1-[[(2S)-1-[[(2S)-1-[[(3S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[2-[[2-[(2S)-2-[[(2S)-1-[[(2S)-1-[[2-[[(2S)-1-[(2S)-2-[(2S)-2-[(2S)-2-[[(2S)-1-amino-3-hydroxy-1-oxopropan-2-yl]carbamoyl]pyrrolidine-1-carbonyl]pyrrolidine-1-carbonyl]pyrrolidin-1-yl]-1-oxopropan-2-yl]amino]-2-oxoethyl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]carbamoyl]pyrrolidin-1-yl]-2-oxoethyl]amino]-2-oxoethyl]amino]-4-carboxy-1-oxobutan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-4-carboxy-1-oxobutan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-1-oxopropan-2-yl]amino]-2-methyl-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-6-oxohexyl]amino]-2-oxoethoxy]ethoxy]ethylamino]-1-carboxy-4-oxobutyl]amino]-20-oxoicosanoic acid"
+  },
+  {
+    "id": "retatrutide-20mg",
+    "name": "Retatrutide",
+    "strength": "20mg",
+    "purity": "99.0%",
+    "formula": "C221H342N46O68",
+    "mass": "4731 g/mol",
+    "cas": "2381089-83-2",
+    "description": "Retatrutide is a multi-receptor peptide analog investigated for its role in metabolic pathway research, appetite signaling models, and energy balance studies.",
+    "category": "Peptide",
+    "image": "/images/products/Retatrutide/Retatrutide_20mg.png",
+    "overview": "Retatrutide is a multi-receptor peptide analog investigated for its role in metabolic pathway research, appetite signaling models, and energy balance studies.",
+    "technicalData": "Purity: 99.0% | Formula: C221H342N46O68 | Molecular Mass: 4731 g/mol | CAS: 2381089-83-2",
+    "safetyInfo": "For research and educational use only. Not for human or veterinary use. Handle materials using appropriate laboratory controls and institutional protocols.",
+    "smiles": "CCC(C)C(C(=O)NC(CCC(=O)O)C(=O)NC(CC1=CC=C(C=C1)O)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)O)C(=O)NCC(=O)NCC(=O)N2CCCC2C(=O)NC(CO)C(=O)NC(CO)C(=O)NCC(=O)NC(C)C(=O)N3CCCC3C(=O)N4CCCC4C(=O)N5CCCC5C(=O)NC(CO)C(=O)N)NC(=O)C(CC6=CC=CC=C6)NC(=O)C(C)NC(=O)C(C)(C)NC(=O)C(CCC(=O)N)NC(=O)C(C)NC(=O)C(CCCCNC(=O)COCCOCCNC(=O)CCC(C(=O)O)NC(=O)CCCCCCCCCCCCCCCCCCC(=O)O)NC(=O)C(CCCCN)NC(=O)C(CC(=O)O)NC(=O)C(CC(C)C)NC(=O)C(C)(CC(C)C)NC(=O)C(C(C)CC)NC(=O)C(CO)NC(=O)C(CC7=CC=C(C=C7)O)NC(=O)C(CC(=O)O)NC(=O)C(CO)NC(=O)C(C(C)O)NC(=O)C(CC8=CC=CC=C8)NC(=O)C(C(C)O)NC(=O)CNC(=O)C(CCC(=O)N)NC(=O)C(C)(C)NC(=O)C(CC9=CC=C(C=C9)O)N",
+    "inchiKey": "MLOLQJNKXBNWFW-SAGGEDDASA-N",
+    "pubchemCid": 171390338,
+    "identifiers": [
+      {
+        "label": "PubChem CID",
+        "value": "171390338"
+      },
+      {
+        "label": "IUPAC Name",
+        "value": "20-[[(1S)-4-[2-[2-[2-[[(5S)-5-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-2-[[(2R)-2-[[(3S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S,3R)-2-[[(2S)-2-[[(2S,3R)-2-[[2-[[(2S)-5-amino-2-[[2-[[(2S)-2-amino-3-(4-hydroxyphenyl)propanoyl]amino]-2-methylpropanoyl]amino]-5-oxopentanoyl]amino]acetyl]amino]-3-hydroxybutanoyl]amino]-3-phenylpropanoyl]amino]-3-hydroxybutanoyl]amino]-3-hydroxypropanoyl]amino]-3-carboxypropanoyl]amino]-3-(4-hydroxyphenyl)propanoyl]amino]-3-hydroxypropanoyl]amino]-3-methylpentanoyl]amino]-2,4-dimethylpentanoyl]amino]-4-methylpentanoyl]amino]-3-carboxypropanoyl]amino]hexanoyl]amino]-6-[[(2S)-1-[[(2S)-5-amino-1-[[1-[[(2S)-1-[[(2S)-1-[[(3S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[2-[[2-[(2S)-2-[[(2S)-1-[[(2S)-1-[[2-[[(2S)-1-[(2S)-2-[(2S)-2-[(2S)-2-[[(2S)-1-amino-3-hydroxy-1-oxopropan-2-yl]carbamoyl]pyrrolidine-1-carbonyl]pyrrolidine-1-carbonyl]pyrrolidin-1-yl]-1-oxopropan-2-yl]amino]-2-oxoethyl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]carbamoyl]pyrrolidin-1-yl]-2-oxoethyl]amino]-2-oxoethyl]amino]-4-carboxy-1-oxobutan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-4-carboxy-1-oxobutan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-1-oxopropan-2-yl]amino]-2-methyl-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-6-oxohexyl]amino]-2-oxoethoxy]ethoxy]ethylamino]-1-carboxy-4-oxobutyl]amino]-20-oxoicosanoic acid"
+      }
+    ],
+    "iupacName": "20-[[(1S)-4-[2-[2-[2-[[(5S)-5-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-2-[[(2R)-2-[[(3S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S,3R)-2-[[(2S)-2-[[(2S,3R)-2-[[2-[[(2S)-5-amino-2-[[2-[[(2S)-2-amino-3-(4-hydroxyphenyl)propanoyl]amino]-2-methylpropanoyl]amino]-5-oxopentanoyl]amino]acetyl]amino]-3-hydroxybutanoyl]amino]-3-phenylpropanoyl]amino]-3-hydroxybutanoyl]amino]-3-hydroxypropanoyl]amino]-3-carboxypropanoyl]amino]-3-(4-hydroxyphenyl)propanoyl]amino]-3-hydroxypropanoyl]amino]-3-methylpentanoyl]amino]-2,4-dimethylpentanoyl]amino]-4-methylpentanoyl]amino]-3-carboxypropanoyl]amino]hexanoyl]amino]-6-[[(2S)-1-[[(2S)-5-amino-1-[[1-[[(2S)-1-[[(2S)-1-[[(3S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[2-[[2-[(2S)-2-[[(2S)-1-[[(2S)-1-[[2-[[(2S)-1-[(2S)-2-[(2S)-2-[(2S)-2-[[(2S)-1-amino-3-hydroxy-1-oxopropan-2-yl]carbamoyl]pyrrolidine-1-carbonyl]pyrrolidine-1-carbonyl]pyrrolidin-1-yl]-1-oxopropan-2-yl]amino]-2-oxoethyl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]carbamoyl]pyrrolidin-1-yl]-2-oxoethyl]amino]-2-oxoethyl]amino]-4-carboxy-1-oxobutan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-4-carboxy-1-oxobutan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-1-oxopropan-2-yl]amino]-2-methyl-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-6-oxohexyl]amino]-2-oxoethoxy]ethoxy]ethylamino]-1-carboxy-4-oxobutyl]amino]-20-oxoicosanoic acid"
+  },
+  {
+    "id": "selank-10mg",
+    "name": "SELANK",
+    "strength": "10mg",
+    "purity": "99.0%",
+    "formula": "C33H57N11O9",
+    "mass": "751.9 g/mol",
+    "cas": "Pending Verification",
+    "description": "SELANK is a synthetic peptide investigated for its potential effects on behavioral model measurement, stress response pathways, and cognitive function models. Commonly utilized in study of neurochemical balance and immunological assay studies.",
+    "category": "Peptide",
+    "image": "/images/products/SELANK/SELANK.png",
+    "overview": "SELANK is a synthetic peptide investigated for its potential effects on behavioral model measurement, stress response pathways, and cognitive function models. Commonly utilized in study of neurochemical balance and immunological assay studies.",
+    "technicalData": "Purity: 99.0% | Formula: C33H57N11O9 | Molecular Mass: 751.9 g/mol | CAS: Pending Verification",
+    "safetyInfo": "For research and educational use only. Not for human or veterinary use. Handle materials using appropriate laboratory controls and institutional protocols.",
+    "smiles": "CC(C(C(=O)NC(CCCCN)C(=O)N1CCCC1C(=O)NC(CCCN=C(N)N)C(=O)N2CCCC2C(=O)NCC(=O)N3CCCC3C(=O)O)N)O",
+    "inchiKey": "JTDTXGMXNXBGBZ-YVHUGQOKSA-N",
+    "pubchemCid": 11765600,
+    "identifiers": [
+      {
+        "label": "PubChem CID",
+        "value": "11765600"
+      },
+      {
+        "label": "IUPAC Name",
+        "value": "(2S)-1-[2-[[(2S)-1-[(2S)-2-[[(2S)-1-[(2S)-6-amino-2-[[(2S,3R)-2-amino-3-hydroxybutanoyl]amino]hexanoyl]pyrrolidine-2-carbonyl]amino]-5-(diaminomethylideneamino)pentanoyl]pyrrolidine-2-carbonyl]amino]acetyl]pyrrolidine-2-carboxylic acid"
+      }
+    ],
+    "iupacName": "(2S)-1-[2-[[(2S)-1-[(2S)-2-[[(2S)-1-[(2S)-6-amino-2-[[(2S,3R)-2-amino-3-hydroxybutanoyl]amino]hexanoyl]pyrrolidine-2-carbonyl]amino]-5-(diaminomethylideneamino)pentanoyl]pyrrolidine-2-carbonyl]amino]acetyl]pyrrolidine-2-carboxylic acid"
+  },
+  {
+    "id": "semax-10mg",
+    "name": "SEMAX",
+    "strength": "10mg",
+    "purity": "99.0%",
+    "formula": "C37H51N9O10S",
+    "mass": "813.9 g/mol",
+    "cas": "Pending Verification",
+    "description": "SEMAX is a synthetic peptide derived from the adrenocorticotropic hormone (ACTH) fragment. Widely investigated for its potential effects on cognitive function models, neuronal signaling analysis, and stress response pathways.",
+    "category": "Peptide",
+    "image": "/images/products/SEMAX/SEMAX.png",
+    "overview": "SEMAX is a synthetic peptide derived from the adrenocorticotropic hormone (ACTH) fragment. Widely investigated for its potential effects on cognitive function models, neuronal signaling analysis, and stress response pathways.",
+    "technicalData": "Purity: 99.0% | Formula: C37H51N9O10S | Molecular Mass: 813.9 g/mol | CAS: Pending Verification",
+    "safetyInfo": "For research and educational use only. Not for human or veterinary use. Handle materials using appropriate laboratory controls and institutional protocols.",
+    "smiles": "CSCCC(C(=O)NC(CCC(=O)O)C(=O)NC(CC1=CN=CN1)C(=O)NC(CC2=CC=CC=C2)C(=O)N3CCCC3C(=O)NCC(=O)N4CCCC4C(=O)O)N",
+    "inchiKey": "AFEHBIGDWIGTEH-AQRCPPRCSA-N",
+    "pubchemCid": 9811102,
+    "identifiers": [
+      {
+        "label": "PubChem CID",
+        "value": "9811102"
+      },
+      {
+        "label": "IUPAC Name",
+        "value": "(2S)-1-[2-[[(2S)-1-[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-amino-4-methylsulfanylbutanoyl]amino]-4-carboxybutanoyl]amino]-3-(1H-imidazol-5-yl)propanoyl]amino]-3-phenylpropanoyl]pyrrolidine-2-carbonyl]amino]acetyl]pyrrolidine-2-carboxylic acid"
+      }
+    ],
+    "iupacName": "(2S)-1-[2-[[(2S)-1-[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-amino-4-methylsulfanylbutanoyl]amino]-4-carboxybutanoyl]amino]-3-(1H-imidazol-5-yl)propanoyl]amino]-3-phenylpropanoyl]pyrrolidine-2-carbonyl]amino]acetyl]pyrrolidine-2-carboxylic acid"
+  },
+  {
+    "id": "sermorelin-10mg",
+    "name": "SERMORELIN",
+    "strength": "10mg",
+    "purity": "99.0%",
+    "formula": "C149H246N44O42S",
+    "mass": "3357.9 g/mol",
+    "cas": "Pending Verification",
+    "description": "SERMORELIN is a growth hormone-releasing hormone (GHRH) analog investigated for its role in stimulating natural growth hormone production pathways. Widely utilized in study of recovery models, metabolic pathways, sleep quality research, and overall cellular function analysis.",
+    "category": "Peptide",
+    "image": "/images/products/SERMORELIN/SERMORELIN.png",
+    "overview": "SERMORELIN is a growth hormone-releasing hormone (GHRH) analog investigated for its role in stimulating natural growth hormone production pathways. Widely utilized in study of recovery models, metabolic pathways, sleep quality research, and overall cellular function analysis.",
+    "technicalData": "Purity: 99.0% | Formula: C149H246N44O42S | Molecular Mass: 3357.9 g/mol | CAS: Pending Verification",
+    "safetyInfo": "For research and educational use only. Not for human or veterinary use. Handle materials using appropriate laboratory controls and institutional protocols.",
+    "smiles": "CCC(C)C(C(=O)NC(CC1=CC=CC=C1)C(=O)NC(C(C)O)C(=O)NC(CC(=O)N)C(=O)NC(CO)C(=O)NC(CC2=CC=C(C=C2)O)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(C(C)C)C(=O)NC(CC(C)C)C(=O)NCC(=O)NC(CCC(=O)N)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(=O)O)C(=O)NC(C(C)CC)C(=O)NC(CCSC)C(=O)NC(CO)C(=O)NC(CCCNC(=N)N)C(=O)N)NC(=O)C(C)NC(=O)C(CC(=O)O)NC(=O)C(C)NC(=O)C(CC3=CC=C(C=C3)O)N",
+    "inchiKey": "WGWPRVFKDLAUQJ-MITYVQBRSA-N",
+    "pubchemCid": 16132413,
+    "identifiers": [
+      {
+        "label": "PubChem CID",
+        "value": "16132413"
+      },
+      {
+        "label": "IUPAC Name",
+        "value": "(3S)-4-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S,3R)-1-[[(2S)-4-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[2-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-amino-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methylsulfanyl-1-oxobutan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-3-carboxy-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-2-oxoethyl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-methyl-1-oxobutan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-1,4-dioxobutan-2-yl]amino]-3-hydroxy-1-oxobutan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-[[(2S)-2-[[(2S)-2-amino-3-(4-hydroxyphenyl)propanoyl]amino]propanoyl]amino]-4-oxobutanoic acid"
+      }
+    ],
+    "iupacName": "(3S)-4-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S,3R)-1-[[(2S)-4-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[2-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-amino-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methylsulfanyl-1-oxobutan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-3-carboxy-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-2-oxoethyl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-methyl-1-oxobutan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-1,4-dioxobutan-2-yl]amino]-3-hydroxy-1-oxobutan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-[[(2S)-2-[[(2S)-2-amino-3-(4-hydroxyphenyl)propanoyl]amino]propanoyl]amino]-4-oxobutanoic acid"
+  },
+  {
+    "id": "ss-31-10mg",
+    "name": "SS-31",
+    "strength": "10mg",
+    "purity": "99.0%",
+    "formula": "C32H49N9O5",
+    "mass": "639.8 g/mol",
+    "cas": "Pending Verification",
+    "description": "SS-31 is a synthetic mitochondria-targeting peptide investigated for its role in cellular energy production and reducing oxidative stress within mitochondrial models. Widely utilized in study of muscle, cardiac cellular models, and neuronal signaling analysis.",
+    "category": "Peptide",
+    "image": "/images/products/SS-31/SS-31.png",
+    "overview": "SS-31 is a synthetic mitochondria-targeting peptide investigated for its role in cellular energy production and reducing oxidative stress within mitochondrial models. Widely utilized in study of muscle, cardiac cellular models, and neuronal signaling analysis.",
+    "technicalData": "Purity: 99.0% | Formula: C32H49N9O5 | Molecular Mass: 639.8 g/mol | CAS: Pending Verification",
+    "safetyInfo": "For research and educational use only. Not for human or veterinary use. Handle materials using appropriate laboratory controls and institutional protocols.",
+    "smiles": "CC1=CC(=CC(=C1CC(C(=O)NC(CCCCN)C(=O)NC(CC2=CC=CC=C2)C(=O)N)NC(=O)C(CCCN=C(N)N)N)C)O",
+    "inchiKey": "SFVLTCAESLKEHH-WKAQUBQDSA-N",
+    "pubchemCid": 11764719,
+    "identifiers": [
+      {
+        "label": "PubChem CID",
+        "value": "11764719"
+      },
+      {
+        "label": "IUPAC Name",
+        "value": "(2S)-6-amino-2-[[(2S)-2-[[(2R)-2-amino-5-(diaminomethylideneamino)pentanoyl]amino]-3-(4-hydroxy-2,6-dimethylphenyl)propanoyl]amino]-N-[(2S)-1-amino-1-oxo-3-phenylpropan-2-yl]hexanamide"
+      }
+    ],
+    "iupacName": "(2S)-6-amino-2-[[(2S)-2-[[(2R)-2-amino-5-(diaminomethylideneamino)pentanoyl]amino]-3-(4-hydroxy-2,6-dimethylphenyl)propanoyl]amino]-N-[(2S)-1-amino-1-oxo-3-phenylpropan-2-yl]hexanamide"
+  },
+  {
+    "id": "tb-bpc-blend-20mg",
+    "name": "TB/BPC Blend",
+    "strength": "20mg",
+    "purity": "99.0%",
+    "formula": "C274H448N72O100S1",
+    "mass": "6383.0 g/mol",
+    "cas": "Blend constituents (batch-specific profile)",
+    "description": "TB/BPC Blend is a combination of TB-500 and BPC-157, investigated for their synergistic effects in cellular proliferation models, recovery pathways, and cytokine pathway modulation. This blend is widely utilized in study of muscle, tendon, ligament, and joint cellular models.",
+    "category": "Peptide",
+    "image": "/images/products/TB_BPC/TB_BPC.png",
+    "overview": "TB/BPC Blend is a combination of TB-500 and BPC-157, investigated for their synergistic effects in cellular proliferation models, recovery pathways, and cytokine pathway modulation. This blend is widely utilized in study of muscle, tendon, ligament, and joint cellular models.",
+    "technicalData": "Purity: 99.0% | Formula: C274H448N72O100S1 | Molecular Mass: 6383.0 g/mol | CAS: Blend constituents (batch-specific profile)",
+    "safetyInfo": "For research and educational use only. Not for human or veterinary use. Handle materials using appropriate laboratory controls and institutional protocols."
+  },
+  {
+    "id": "tb-500-10mg",
+    "name": "TB-500",
+    "strength": "10mg",
+    "purity": "99.0%",
+    "formula": "C38H68N10O14",
+    "mass": "889 g/mol",
+    "cas": "77591-33-4",
+    "description": "TB-500 is a synthetic peptide investigated for its role in cellular proliferation models and cytokine pathway modulation. Widely utilized in study of muscle and tendon cellular models, joint mobility research, and angiogenesis pathways.",
+    "category": "Peptide",
+    "image": "/images/products/TB-500/TB-500.png",
+    "overview": "TB-500 is a synthetic peptide investigated for its role in cellular proliferation models and cytokine pathway modulation. Widely utilized in study of muscle and tendon cellular models, joint mobility research, and angiogenesis pathways.",
+    "technicalData": "Purity: 99.0% | Formula: C38H68N10O14 | Molecular Mass: 889 g/mol | CAS: 77591-33-4",
+    "safetyInfo": "For research and educational use only. Not for human or veterinary use. Handle materials using appropriate laboratory controls and institutional protocols.",
+    "smiles": "CC(C)CC(C(=O)NC(CCCCN)C(=O)NC(CCCCN)C(=O)NC(C(C)O)C(=O)NC(CCC(=O)O)C(=O)NC(C(C)O)C(=O)NC(CCC(=O)N)C(=O)O)NC(=O)C",
+    "inchiKey": "ADKDNDYYIZUVCZ-ZQNQAVPYSA-N",
+    "pubchemCid": 62707662,
+    "identifiers": [
+      {
+        "label": "PubChem CID",
+        "value": "62707662"
+      },
+      {
+        "label": "IUPAC Name",
+        "value": "(2S)-2-[[(2S,3R)-2-[[(2S)-2-[[(2S,3R)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-acetamido-4-methylpentanoyl]amino]-6-aminohexanoyl]amino]-6-aminohexanoyl]amino]-3-hydroxybutanoyl]amino]-4-carboxybutanoyl]amino]-3-hydroxybutanoyl]amino]-5-amino-5-oxopentanoic acid"
+      }
+    ],
+    "iupacName": "(2S)-2-[[(2S,3R)-2-[[(2S)-2-[[(2S,3R)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-acetamido-4-methylpentanoyl]amino]-6-aminohexanoyl]amino]-6-aminohexanoyl]amino]-3-hydroxybutanoyl]amino]-4-carboxybutanoyl]amino]-3-hydroxybutanoyl]amino]-5-amino-5-oxopentanoic acid"
+  },
+  {
+    "id": "epitalon-10mg",
+    "name": "EPITALON",
+    "strength": "10mg",
+    "purity": "99.0%",
+    "formula": "C14H22N4O9",
+    "mass": "390.35 g/mol",
+    "cas": "307297-39-8",
+    "description": "EPITALON is a synthetic tetrapeptide investigated for its effects on cellular aging models, oxidative stress pathways, and circadian rhythm-related research.",
+    "category": "Peptide",
+    "image": "/images/products/EPITALON/EPITALON.png",
+    "overview": "EPITALON is a synthetic tetrapeptide investigated for its effects on cellular aging models, oxidative stress pathways, and circadian rhythm-related research.",
+    "technicalData": "Purity: 99.0% | Formula: C14H22N4O9 | Molecular Mass: 390.35 g/mol | CAS: 307297-39-8",
+    "safetyInfo": "For research and educational use only. Not for human or veterinary use. Handle materials using appropriate laboratory controls and institutional protocols.",
+    "smiles": "CC(C(=O)NC(CCC(=O)O)C(=O)NC(CC(=O)O)C(=O)NCC(=O)O)N",
+    "inchiKey": "HGHOBRRUMWJWCU-FXQIFTODSA-N",
+    "pubchemCid": 219042,
+    "identifiers": [
+      {
+        "label": "PubChem CID",
+        "value": "219042"
+      },
+      {
+        "label": "IUPAC Name",
+        "value": "(4S)-4-[[(2S)-2-aminopropanoyl]amino]-5-[[(2S)-3-carboxy-1-(carboxymethylamino)-1-oxopropan-2-yl]amino]-5-oxopentanoic acid"
+      }
+    ],
+    "iupacName": "(4S)-4-[[(2S)-2-aminopropanoyl]amino]-5-[[(2S)-3-carboxy-1-(carboxymethylamino)-1-oxopropan-2-yl]amino]-5-oxopentanoic acid"
+  },
+  {
+    "id": "tesamorelin-10mg",
+    "name": "TESAMORELIN",
+    "strength": "10mg",
+    "purity": "99.0%",
+    "formula": "C221H366N72O67S",
+    "mass": "5136 g/mol",
+    "cas": "218949-48-5",
+    "description": "TESAMORELIN is a growth hormone-releasing hormone analog investigated in metabolic pathway studies, lipid processing models, and endocrine signaling research.",
+    "category": "Peptide",
+    "image": "/images/products/TESAMORELIN/TESAMORELIN.png",
+    "overview": "TESAMORELIN is a growth hormone-releasing hormone analog investigated in metabolic pathway studies, lipid processing models, and endocrine signaling research.",
+    "technicalData": "Purity: 99.0% | Formula: C221H366N72O67S | Molecular Mass: 5136 g/mol | CAS: 218949-48-5",
+    "safetyInfo": "For research and educational use only. Not for human or veterinary use. Handle materials using appropriate laboratory controls and institutional protocols.",
+    "smiles": "CCC=CCC(=O)NC(CC1=CC=C(C=C1)O)C(=O)NC(C)C(=O)NC(CC(=O)O)C(=O)NC(C)C(=O)NC(C(C)CC)C(=O)NC(CC2=CC=CC=C2)C(=O)NC(C(C)O)C(=O)NC(CC(=O)N)C(=O)NC(CO)C(=O)NC(CC3=CC=C(C=C3)O)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(C(C)C)C(=O)NC(CC(C)C)C(=O)NCC(=O)NC(CCC(=O)N)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(=O)O)C(=O)NC(C(C)CC)C(=O)NC(CCSC)C(=O)NC(CO)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCC(=O)N)C(=O)NC(CCC(=O)N)C(=O)NCC(=O)NC(CCC(=O)O)C(=O)NC(CO)C(=O)NC(CC(=O)N)C(=O)NC(CCC(=O)N)C(=O)NC(CCC(=O)O)C(=O)NC(CCCNC(=N)N)C(=O)NCC(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CC(C)C)C(=O)N",
+    "inchiKey": "QBEPNUQJQWDYKU-BMGKTWPMSA-N",
+    "pubchemCid": 16137828,
+    "identifiers": [
+      {
+        "label": "PubChem CID",
+        "value": "16137828"
+      },
+      {
+        "label": "IUPAC Name",
+        "value": "(4S)-4-[[2-[[(2S)-5-amino-2-[[(2S)-5-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S,3S)-2-[[(2S)-2-[[(2S)-5-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-5-amino-2-[[2-[[(2S)-2-[[(2S)-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-4-amino-2-[[(2S,3R)-2-[[(2S)-2-[[(2S,3S)-2-[[(2S)-2-[[(2S)-3-carboxy-2-[[(2S)-2-[[(2S)-2-[[(E)-hex-3-enoyl]amino]-3-(4-hydroxyphenyl)propanoyl]amino]propanoyl]amino]propanoyl]amino]propanoyl]amino]-3-methylpentanoyl]amino]-3-phenylpropanoyl]amino]-3-hydroxybutanoyl]amino]-4-oxobutanoyl]amino]-3-hydroxypropanoyl]amino]-3-(4-hydroxyphenyl)propanoyl]amino]-5-carbamimidamidopentanoyl]amino]hexanoyl]amino]-3-methylbutanoyl]amino]-4-methylpentanoyl]amino]acetyl]amino]-5-oxopentanoyl]amino]-4-methylpentanoyl]amino]-3-hydroxypropanoyl]amino]propanoyl]amino]-5-carbamimidamidopentanoyl]amino]hexanoyl]amino]-4-methylpentanoyl]amino]-4-methylpentanoyl]amino]-5-oxopentanoyl]amino]-3-carboxypropanoyl]amino]-3-methylpentanoyl]amino]-4-methylsulfanylbutanoyl]amino]-3-hydroxypropanoyl]amino]-5-carbamimidamidopentanoyl]amino]-5-oxopentanoyl]amino]-5-oxopentanoyl]amino]acetyl]amino]-5-[[(2S)-1-[[(2S)-4-amino-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[2-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-amino-4-methyl-1-oxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-2-oxoethyl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-4-carboxy-1-oxobutan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-1,4-dioxobutan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-5-oxopentanoic acid"
+      }
+    ],
+    "iupacName": "(4S)-4-[[2-[[(2S)-5-amino-2-[[(2S)-5-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S,3S)-2-[[(2S)-2-[[(2S)-5-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-5-amino-2-[[2-[[(2S)-2-[[(2S)-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-4-amino-2-[[(2S,3R)-2-[[(2S)-2-[[(2S,3S)-2-[[(2S)-2-[[(2S)-3-carboxy-2-[[(2S)-2-[[(2S)-2-[[(E)-hex-3-enoyl]amino]-3-(4-hydroxyphenyl)propanoyl]amino]propanoyl]amino]propanoyl]amino]propanoyl]amino]-3-methylpentanoyl]amino]-3-phenylpropanoyl]amino]-3-hydroxybutanoyl]amino]-4-oxobutanoyl]amino]-3-hydroxypropanoyl]amino]-3-(4-hydroxyphenyl)propanoyl]amino]-5-carbamimidamidopentanoyl]amino]hexanoyl]amino]-3-methylbutanoyl]amino]-4-methylpentanoyl]amino]acetyl]amino]-5-oxopentanoyl]amino]-4-methylpentanoyl]amino]-3-hydroxypropanoyl]amino]propanoyl]amino]-5-carbamimidamidopentanoyl]amino]hexanoyl]amino]-4-methylpentanoyl]amino]-4-methylpentanoyl]amino]-5-oxopentanoyl]amino]-3-carboxypropanoyl]amino]-3-methylpentanoyl]amino]-4-methylsulfanylbutanoyl]amino]-3-hydroxypropanoyl]amino]-5-carbamimidamidopentanoyl]amino]-5-oxopentanoyl]amino]-5-oxopentanoyl]amino]acetyl]amino]-5-[[(2S)-1-[[(2S)-4-amino-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[2-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-amino-4-methyl-1-oxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-2-oxoethyl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-4-carboxy-1-oxobutan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-1,4-dioxobutan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-5-oxopentanoic acid"
+  },
+  {
+    "purity": "99.0%",
+    "category": "Peptide",
+    "overview": "TESAMORELIN is a growth hormone-releasing hormone analog investigated in metabolic pathway studies, lipid processing models, and endocrine signaling research.",
+    "technicalData": "Purity: 99.0% | Formula: C221H366N72O67S | Molecular Mass: 5136 g/mol | CAS: 218949-48-5",
+    "safetyInfo": "For research and educational use only. Not for human or veterinary use. Handle materials using appropriate laboratory controls and institutional protocols.",
+    "id": "tesamorelin-20mg",
+    "name": "TESAMORELIN",
+    "strength": "20mg",
+    "formula": "C221H366N72O67S",
+    "mass": "5136 g/mol",
+    "cas": "218949-48-5",
+    "description": "TESAMORELIN is a growth hormone-releasing hormone analog investigated in metabolic pathway studies, lipid processing models, and endocrine signaling research.",
+    "image": "/images/products/TESAMORELIN/TESAMORELIN.png"
+  },
+  {
+    "purity": "99.0%",
+    "category": "Peptide",
+    "overview": "MELANOTAN II is a synthetic melanocortin analog studied in pigmentation and appetite signaling pathways.",
+    "technicalData": "Purity: 99.0% | Formula: C50H69N15O9 | Molecular Mass: 1024.2 g/mol | CAS: 121062-08-6",
+    "safetyInfo": "For research and educational use only. Not for human or veterinary use. Handle materials using appropriate laboratory controls and institutional protocols.",
+    "id": "melanotan-ii-10mg",
+    "name": "MELANOTAN II",
+    "strength": "10mg",
+    "formula": "C50H69N15O9",
+    "mass": "1024.2 g/mol",
+    "cas": "121062-08-6",
+    "description": "MELANOTAN II is a synthetic melanocortin analog studied in pigmentation and appetite signaling pathways.",
+    "image": "/images/products/MELANOTAN-II/MELANOTAN-II.png"
+  },
+  {
+    "purity": "99.0%",
+    "category": "Peptide",
+    "overview": "IGF-1 LR3 is a long-acting insulin-like growth factor analog investigated in cellular growth and recovery pathway research.",
+    "technicalData": "Purity: 99.0% | Formula: C400H625N111O115S9 | Molecular Mass: 9111 g/mol | CAS: 946870-92-4",
+    "safetyInfo": "For research and educational use only. Not for human or veterinary use. Handle materials using appropriate laboratory controls and institutional protocols.",
+    "id": "igf-1-lr3-1mg",
+    "name": "IGF-1 LR3",
+    "strength": "1mg",
+    "formula": "C400H625N111O115S9",
+    "mass": "9111 g/mol",
+    "cas": "946870-92-4",
+    "description": "IGF-1 LR3 is a long-acting insulin-like growth factor analog investigated in cellular growth and recovery pathway research.",
+    "image": "/images/products/IGF-1-LR3/IGF-1-LR3.png"
+  },
+  {
+    "purity": "99.0%",
+    "category": "Peptide",
+    "overview": "MIC (lipo/B12) is a lipotropic blend with B12 investigated in metabolic and hepatic pathway research.",
+    "technicalData": "Purity: 99.0% | Formula: Proprietary Lipotropic Complex with B12 | Molecular Mass: Composite profile (batch-specific) | CAS: Blend constituents (batch-specific profile)",
+    "safetyInfo": "For research and educational use only. Not for human or veterinary use. Handle materials using appropriate laboratory controls and institutional protocols.",
+    "id": "mic-lipo-b12-10mg",
+    "name": "MIC (lipo/B12)",
+    "strength": "10 mg",
+    "formula": "Proprietary Lipotropic Complex with B12",
+    "mass": "Composite profile (batch-specific)",
+    "cas": "Blend constituents (batch-specific profile)",
+    "description": "MIC (lipo/B12) is a lipotropic blend with B12 investigated in metabolic and hepatic pathway research.",
+    "image": "/images/products/MIC-LIPO-B12/MIC-LIPO-B12.png"
+  },
+  {
+    "purity": "99.0%",
+    "category": "Peptide",
+    "overview": "KPV is a tripeptide fragment investigated in inflammatory pathway and tissue recovery research.",
+    "technicalData": "Purity: 99.0% | Formula: C16H28N4O5 | Molecular Mass: 356.4 g/mol | CAS: 67727-97-3",
+    "safetyInfo": "For research and educational use only. Not for human or veterinary use. Handle materials using appropriate laboratory controls and institutional protocols.",
+    "id": "kpv-10mg",
+    "name": "KPV",
+    "strength": "10mg",
+    "formula": "C16H28N4O5",
+    "mass": "356.4 g/mol",
+    "cas": "67727-97-3",
+    "description": "KPV is a tripeptide fragment investigated in inflammatory pathway and tissue recovery research.",
+    "image": "/images/products/KPV/KPV.png"
+  }
+]
