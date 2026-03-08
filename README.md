@@ -1,5 +1,7 @@
 # PEPTQ Temp Print Site
 
+[![Deploy Vite Site to GitHub Pages](https://github.com/staylegitlonewolf/peptq-temp-print-site/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/staylegitlonewolf/peptq-temp-print-site/actions/workflows/deploy-pages.yml)
+
 OL1735 canvas editor and print workflow app built with React + Vite.
 
 ## Live Site
