@@ -1,4 +1,7 @@
-name: Deploy Vite Site to GitHub Pages
+cd C:\Users\Lonewolf\Desktop\PrintCenterPage_TEMPLATE
+git add .
+git commit -m "fix: describe your change"
+git pushname: Deploy Vite Site to GitHub Pages
 
 on:
   push:
