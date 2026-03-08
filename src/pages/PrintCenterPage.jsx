@@ -223,6 +223,7 @@ function PrintCenterPage() {
   const [purityEditorMode, setPurityEditorMode] = useState('hplc-verified');
   const [customProductDraft, setCustomProductDraft] = useState(createDefaultCustomProductDraft);
   const [editingCustomProductId, setEditingCustomProductId] = useState('');
+  const [step3EditorTab, setStep3EditorTab] = useState('edit');
 
   useEffect(() => {
     const stored = localStorage.getItem(PRINT_CENTER_LAYOUTS_KEY);
@@ -601,6 +602,7 @@ function PrintCenterPage() {
   const startAddCustomProduct = () => {
     setEditingCustomProductId('');
     setCustomProductDraft(createDefaultCustomProductDraft());
+    setStep3EditorTab('edit');
     setIdentityWizardStep(3);
   };
 
@@ -608,6 +610,7 @@ function PrintCenterPage() {
     if (!product) return;
     setEditingCustomProductId(product.customProduct ? product.id : '');
     setCustomProductDraft(toCustomProductDraft(product));
+    setStep3EditorTab('edit');
     setIdentityWizardStep(3);
   };
 
@@ -2035,152 +2038,173 @@ function PrintCenterPage() {
                     <h3 className="text-lg font-black text-[#11284a]">Edit Product</h3>
                   </div>
 
+                  <div className="grid grid-cols-2 gap-2 rounded-xl border border-[#d5ddea] bg-white p-1">
+                    <button
+                      type="button"
+                      onClick={() => setStep3EditorTab('edit')}
+                      className={`rounded-lg px-3 py-2 text-xs font-black uppercase tracking-wide ${step3EditorTab === 'edit' ? 'bg-brand-orange text-white' : 'text-[#19345d] hover:bg-[#f4f7fa]'}`}
+                    >
+                      Edit Product
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setStep3EditorTab('catalog')}
+                      className={`rounded-lg px-3 py-2 text-xs font-black uppercase tracking-wide ${step3EditorTab === 'catalog' ? 'bg-brand-orange text-white' : 'text-[#19345d] hover:bg-[#f4f7fa]'}`}
+                    >
+                      Catalog Info
+                    </button>
+                  </div>
+
                   {!editingCustomProductId && (
                     <p className="rounded-lg border border-brand-orange/25 bg-brand-orange/5 px-3 py-2 text-xs text-[#3a5276]">
                       Creating a new custom product.
                     </p>
                   )}
 
-                  <div className="space-y-2">
-                    <div className="flex items-center gap-2">
-                      <input
-                        type="text"
-                        value={customProductDraft.name}
-                        onChange={(e) => setCustomProductDraft((prev) => ({ ...prev, name: e.target.value }))}
-                        placeholder="Label Name"
-                        className="flex-1 rounded-xl border border-[#d5ddea] bg-white px-4 py-2.5 text-sm text-[#11284a]"
-                      />
-                      <button type="button" onClick={() => setCustomProductDraft((prev) => ({ ...prev, name: '' }))} className="rounded-lg border border-[#d5ddea] px-2.5 py-2 text-xs font-black text-[#3a5276] hover:bg-[#f4f7fa]">Clear</button>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <input
-                        type="text"
-                        value={customProductDraft.strength}
-                        onChange={(e) => setCustomProductDraft((prev) => ({ ...prev, strength: normalizeStrengthText(e.target.value) }))}
-                        placeholder="MG (e.g. 10mg)"
-                        className="flex-1 rounded-xl border border-[#d5ddea] bg-white px-4 py-2.5 text-sm text-[#11284a]"
-                      />
-                      <button type="button" onClick={() => setCustomProductDraft((prev) => ({ ...prev, strength: '' }))} className="rounded-lg border border-[#d5ddea] px-2.5 py-2 text-xs font-black text-[#3a5276] hover:bg-[#f4f7fa]">Clear</button>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <input
-                        type="text"
-                        value={customProductDraft.purityText}
-                        onChange={(e) => setCustomProductDraft((prev) => ({ ...prev, purityText: normalizePuritySymbol(e.target.value) }))}
-                        placeholder="Purity text"
-                        className="flex-1 rounded-xl border border-[#d5ddea] bg-white px-4 py-2.5 text-sm text-[#11284a]"
-                      />
-                      <button type="button" onClick={() => setCustomProductDraft((prev) => ({ ...prev, purityText: '' }))} className="rounded-lg border border-[#d5ddea] px-2.5 py-2 text-xs font-black text-[#3a5276] hover:bg-[#f4f7fa]">Clear</button>
-                    </div>
-                    <div className="rounded-xl border border-[#d5ddea] bg-white px-3 py-2.5">
-                      <p className="text-[11px] font-black uppercase tracking-widest text-[#3a5276]">Purity Option</p>
-                      <div className="mt-2 grid grid-cols-2 gap-2">
-                        <button
-                          type="button"
-                          onClick={() => {
-                            setPurityEditorMode('hplc-verified');
-                            setCustomProductDraft((prev) => ({ ...prev, purityText: '≥99% Purity (HPLC-VERIFIED)' }));
-                          }}
-                          className={`rounded-lg border px-2 py-2 text-xs font-black ${String(customProductDraft.purityText || '').includes('HPLC-VERIFIED') ? 'border-brand-orange bg-brand-orange/10 text-brand-orange' : 'border-[#d5ddea] text-[#19345d] hover:bg-[#f4f7fa]'}`}
-                        >
-                          ≥99% Purity (HPLC-VERIFIED)
-                        </button>
-                        <button
-                          type="button"
-                          onClick={() => {
-                            setPurityEditorMode('hplc-dad');
-                            setCustomProductDraft((prev) => ({ ...prev, purityText: '≥99% Purity (HPLC-DAD)' }));
-                          }}
-                          className={`rounded-lg border px-2 py-2 text-xs font-black ${String(customProductDraft.purityText || '').includes('HPLC-DAD') ? 'border-brand-orange bg-brand-orange/10 text-brand-orange' : 'border-[#d5ddea] text-[#19345d] hover:bg-[#f4f7fa]'}`}
-                        >
-                          ≥99% Purity (HPLC-DAD)
-                        </button>
+                  {step3EditorTab === 'edit' && (
+                    <div className="space-y-2">
+                      <div className="flex items-center gap-2">
+                        <input
+                          type="text"
+                          value={customProductDraft.name}
+                          onChange={(e) => setCustomProductDraft((prev) => ({ ...prev, name: e.target.value }))}
+                          placeholder="Label Name"
+                          className="flex-1 rounded-xl border border-[#d5ddea] bg-white px-4 py-2.5 text-sm text-[#11284a]"
+                        />
+                        <button type="button" onClick={() => setCustomProductDraft((prev) => ({ ...prev, name: '' }))} className="rounded-lg border border-[#d5ddea] px-2.5 py-2 text-xs font-black text-[#3a5276] hover:bg-[#f4f7fa]">Clear</button>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <input
+                          type="text"
+                          value={customProductDraft.strength}
+                          onChange={(e) => setCustomProductDraft((prev) => ({ ...prev, strength: normalizeStrengthText(e.target.value) }))}
+                          placeholder="MG (e.g. 10mg)"
+                          className="flex-1 rounded-xl border border-[#d5ddea] bg-white px-4 py-2.5 text-sm text-[#11284a]"
+                        />
+                        <button type="button" onClick={() => setCustomProductDraft((prev) => ({ ...prev, strength: '' }))} className="rounded-lg border border-[#d5ddea] px-2.5 py-2 text-xs font-black text-[#3a5276] hover:bg-[#f4f7fa]">Clear</button>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <input
+                          type="text"
+                          value={customProductDraft.purityText}
+                          onChange={(e) => setCustomProductDraft((prev) => ({ ...prev, purityText: normalizePuritySymbol(e.target.value) }))}
+                          placeholder="Purity text"
+                          className="flex-1 rounded-xl border border-[#d5ddea] bg-white px-4 py-2.5 text-sm text-[#11284a]"
+                        />
+                        <button type="button" onClick={() => setCustomProductDraft((prev) => ({ ...prev, purityText: '' }))} className="rounded-lg border border-[#d5ddea] px-2.5 py-2 text-xs font-black text-[#3a5276] hover:bg-[#f4f7fa]">Clear</button>
+                      </div>
+                      <div className="rounded-xl border border-[#d5ddea] bg-white px-3 py-2.5">
+                        <p className="text-[11px] font-black uppercase tracking-widest text-[#3a5276]">Purity Option</p>
+                        <div className="mt-2 grid grid-cols-2 gap-2">
+                          <button
+                            type="button"
+                            onClick={() => {
+                              setPurityEditorMode('hplc-verified');
+                              setCustomProductDraft((prev) => ({ ...prev, purityText: '≥99% Purity (HPLC-VERIFIED)' }));
+                            }}
+                            className={`rounded-lg border px-2 py-2 text-xs font-black ${String(customProductDraft.purityText || '').includes('HPLC-VERIFIED') ? 'border-brand-orange bg-brand-orange/10 text-brand-orange' : 'border-[#d5ddea] text-[#19345d] hover:bg-[#f4f7fa]'}`}
+                          >
+                            ≥99% Purity (HPLC-VERIFIED)
+                          </button>
+                          <button
+                            type="button"
+                            onClick={() => {
+                              setPurityEditorMode('hplc-dad');
+                              setCustomProductDraft((prev) => ({ ...prev, purityText: '≥99% Purity (HPLC-DAD)' }));
+                            }}
+                            className={`rounded-lg border px-2 py-2 text-xs font-black ${String(customProductDraft.purityText || '').includes('HPLC-DAD') ? 'border-brand-orange bg-brand-orange/10 text-brand-orange' : 'border-[#d5ddea] text-[#19345d] hover:bg-[#f4f7fa]'}`}
+                          >
+                            ≥99% Purity (HPLC-DAD)
+                          </button>
+                        </div>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <input
+                          type="text"
+                          value={customProductDraft.legalText}
+                          onChange={(e) => setCustomProductDraft((prev) => ({ ...prev, legalText: e.target.value }))}
+                          placeholder="FOR RESEARCH USE ONLY"
+                          className="flex-1 rounded-xl border border-[#d5ddea] bg-white px-4 py-2.5 text-sm text-[#11284a]"
+                        />
+                        <button type="button" onClick={() => setCustomProductDraft((prev) => ({ ...prev, legalText: '' }))} className="rounded-lg border border-[#d5ddea] px-2.5 py-2 text-xs font-black text-[#3a5276] hover:bg-[#f4f7fa]">Clear</button>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <input
+                          type="text"
+                          value={customProductDraft.storageText}
+                          onChange={(e) => setCustomProductDraft((prev) => ({ ...prev, storageText: e.target.value }))}
+                          placeholder="STORE AT 2-8C"
+                          className="flex-1 rounded-xl border border-[#d5ddea] bg-white px-4 py-2.5 text-sm text-[#11284a]"
+                        />
+                        <button type="button" onClick={() => setCustomProductDraft((prev) => ({ ...prev, storageText: '' }))} className="rounded-lg border border-[#d5ddea] px-2.5 py-2 text-xs font-black text-[#3a5276] hover:bg-[#f4f7fa]">Clear</button>
                       </div>
                     </div>
-                    <div className="flex items-center gap-2">
-                      <input
-                        type="text"
-                        value={customProductDraft.legalText}
-                        onChange={(e) => setCustomProductDraft((prev) => ({ ...prev, legalText: e.target.value }))}
-                        placeholder="FOR RESEARCH USE ONLY"
-                        className="flex-1 rounded-xl border border-[#d5ddea] bg-white px-4 py-2.5 text-sm text-[#11284a]"
-                      />
-                      <button type="button" onClick={() => setCustomProductDraft((prev) => ({ ...prev, legalText: '' }))} className="rounded-lg border border-[#d5ddea] px-2.5 py-2 text-xs font-black text-[#3a5276] hover:bg-[#f4f7fa]">Clear</button>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <input
-                        type="text"
-                        value={customProductDraft.storageText}
-                        onChange={(e) => setCustomProductDraft((prev) => ({ ...prev, storageText: e.target.value }))}
-                        placeholder="STORE AT 2-8C"
-                        className="flex-1 rounded-xl border border-[#d5ddea] bg-white px-4 py-2.5 text-sm text-[#11284a]"
-                      />
-                      <button type="button" onClick={() => setCustomProductDraft((prev) => ({ ...prev, storageText: '' }))} className="rounded-lg border border-[#d5ddea] px-2.5 py-2 text-xs font-black text-[#3a5276] hover:bg-[#f4f7fa]">Clear</button>
-                    </div>
-                  </div>
+                  )}
 
-                  <div className="rounded-xl border border-[#d5ddea] bg-[#f8fbff] p-3 space-y-2">
-                    <p className="text-xs font-black uppercase tracking-widest text-[#3a5276]">Catalog info</p>
-                    <p className="text-[11px] text-[#3a5276]">This section will be included in your main website and will go live after review.</p>
-                    <div className="grid grid-cols-2 gap-2">
+                  {step3EditorTab === 'catalog' && (
+                    <div className="rounded-xl border border-[#d5ddea] bg-[#f8fbff] p-3 space-y-2">
+                      <p className="text-xs font-black uppercase tracking-widest text-[#3a5276]">Catalog info</p>
+                      <p className="text-[11px] text-[#3a5276]">This section will be included in your main website and will go live after review.</p>
+                      <div className="grid grid-cols-2 gap-2">
+                        <input
+                          type="text"
+                          value={customProductDraft.price}
+                          onChange={(e) => setCustomProductDraft((prev) => ({ ...prev, price: e.target.value }))}
+                          placeholder="Price (example: $129)"
+                          className="rounded-lg border border-[#d5ddea] bg-white px-3 py-2 text-sm text-[#11284a]"
+                        />
+                        <input
+                          type="text"
+                          value={customProductDraft.formula}
+                          onChange={(e) => setCustomProductDraft((prev) => ({ ...prev, formula: e.target.value }))}
+                          placeholder="Formula"
+                          className="rounded-lg border border-[#d5ddea] bg-white px-3 py-2 text-sm text-[#11284a]"
+                        />
+                        <input
+                          type="text"
+                          value={customProductDraft.cas}
+                          onChange={(e) => setCustomProductDraft((prev) => ({ ...prev, cas: e.target.value }))}
+                          placeholder="CAS"
+                          className="rounded-lg border border-[#d5ddea] bg-white px-3 py-2 text-sm text-[#11284a]"
+                        />
+                        <input
+                          type="text"
+                          value={customProductDraft.pubchemCid}
+                          onChange={(e) => setCustomProductDraft((prev) => ({ ...prev, pubchemCid: e.target.value }))}
+                          placeholder="PubChem CID"
+                          className="rounded-lg border border-[#d5ddea] bg-white px-3 py-2 text-sm text-[#11284a]"
+                        />
+                        <input
+                          type="text"
+                          value={customProductDraft.lotNumber}
+                          onChange={(e) => setCustomProductDraft((prev) => ({ ...prev, lotNumber: e.target.value }))}
+                          placeholder="Lot Number"
+                          className="rounded-lg border border-[#d5ddea] bg-white px-3 py-2 text-sm text-[#11284a]"
+                        />
+                        <input
+                          type="text"
+                          value={customProductDraft.coaUrl}
+                          onChange={(e) => setCustomProductDraft((prev) => ({ ...prev, coaUrl: e.target.value }))}
+                          placeholder="COA URL"
+                          className="rounded-lg border border-[#d5ddea] bg-white px-3 py-2 text-sm text-[#11284a]"
+                        />
+                      </div>
                       <input
                         type="text"
-                        value={customProductDraft.price}
-                        onChange={(e) => setCustomProductDraft((prev) => ({ ...prev, price: e.target.value }))}
-                        placeholder="Price (example: $129)"
-                        className="rounded-lg border border-[#d5ddea] bg-white px-3 py-2 text-sm text-[#11284a]"
+                        value={customProductDraft.qrUrl}
+                        onChange={(e) => setCustomProductDraft((prev) => ({ ...prev, qrUrl: e.target.value }))}
+                        placeholder="QR Link URL"
+                        className="w-full rounded-lg border border-[#d5ddea] bg-white px-3 py-2 text-sm text-[#11284a]"
                       />
-                      <input
-                        type="text"
-                        value={customProductDraft.formula}
-                        onChange={(e) => setCustomProductDraft((prev) => ({ ...prev, formula: e.target.value }))}
-                        placeholder="Formula"
-                        className="rounded-lg border border-[#d5ddea] bg-white px-3 py-2 text-sm text-[#11284a]"
-                      />
-                      <input
-                        type="text"
-                        value={customProductDraft.cas}
-                        onChange={(e) => setCustomProductDraft((prev) => ({ ...prev, cas: e.target.value }))}
-                        placeholder="CAS"
-                        className="rounded-lg border border-[#d5ddea] bg-white px-3 py-2 text-sm text-[#11284a]"
-                      />
-                      <input
-                        type="text"
-                        value={customProductDraft.pubchemCid}
-                        onChange={(e) => setCustomProductDraft((prev) => ({ ...prev, pubchemCid: e.target.value }))}
-                        placeholder="PubChem CID"
-                        className="rounded-lg border border-[#d5ddea] bg-white px-3 py-2 text-sm text-[#11284a]"
-                      />
-                      <input
-                        type="text"
-                        value={customProductDraft.lotNumber}
-                        onChange={(e) => setCustomProductDraft((prev) => ({ ...prev, lotNumber: e.target.value }))}
-                        placeholder="Lot Number"
-                        className="rounded-lg border border-[#d5ddea] bg-white px-3 py-2 text-sm text-[#11284a]"
-                      />
-                      <input
-                        type="text"
-                        value={customProductDraft.coaUrl}
-                        onChange={(e) => setCustomProductDraft((prev) => ({ ...prev, coaUrl: e.target.value }))}
-                        placeholder="COA URL"
-                        className="rounded-lg border border-[#d5ddea] bg-white px-3 py-2 text-sm text-[#11284a]"
+                      <textarea
+                        value={customProductDraft.catalogRequestNotes}
+                        onChange={(e) => setCustomProductDraft((prev) => ({ ...prev, catalogRequestNotes: e.target.value }))}
+                        placeholder="Request details for website team"
+                        rows={3}
+                        className="w-full rounded-lg border border-[#d5ddea] bg-white px-3 py-2 text-sm text-[#11284a]"
                       />
                     </div>
-                    <input
-                      type="text"
-                      value={customProductDraft.qrUrl}
-                      onChange={(e) => setCustomProductDraft((prev) => ({ ...prev, qrUrl: e.target.value }))}
-                      placeholder="QR Link URL"
-                      className="w-full rounded-lg border border-[#d5ddea] bg-white px-3 py-2 text-sm text-[#11284a]"
-                    />
-                    <textarea
-                      value={customProductDraft.catalogRequestNotes}
-                      onChange={(e) => setCustomProductDraft((prev) => ({ ...prev, catalogRequestNotes: e.target.value }))}
-                      placeholder="Request details for website team"
-                      rows={3}
-                      className="w-full rounded-lg border border-[#d5ddea] bg-white px-3 py-2 text-sm text-[#11284a]"
-                    />
-                  </div>
+                  )}
 
                   <div className={`grid gap-3 ${editingCustomProductId ? 'grid-cols-2' : 'grid-cols-1'}`}>
                     {editingCustomProductId && (
@@ -2887,6 +2911,40 @@ function PrintCenterPage() {
                     Column
                   </button>
                 </div>
+                {(rowApplied || columnApplied) && (
+                  <div className="grid grid-cols-1 gap-2">
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setRowApplied(false);
+                        setColumnApplied(false);
+                      }}
+                      className="rounded-lg border border-[#d0d9e8] text-[#19345d] text-xs font-black uppercase tracking-wide py-2"
+                    >
+                      Select Another
+                    </button>
+                  </div>
+                )}
+                <button type="button" onClick={clearActiveSlot} className="w-full rounded-lg border border-[#d0d9e8] text-[#19345d] text-xs font-black uppercase tracking-wide py-2 inline-flex items-center justify-center gap-1">
+                  <Eraser size={12} />
+                  Clear Selected
+                </button>
+              </div>
+            )}
+          </div>
+
+          {/* Generate */}
+          <div className="rounded-xl border border-[#d5ddea]">
+            <button
+              type="button"
+              onClick={() => setExpandedSection(expandedSection === 'generate' ? null : 'generate')}
+              className="w-full px-4 py-3 flex items-center justify-between text-sm font-black uppercase tracking-wide rounded-xl text-[#11284a]"
+            >
+              <span>Generate</span>
+              <span className="text-[#3a5276]">{expandedSection === 'generate' ? '−' : '+'}</span>
+            </button>
+            {expandedSection === 'generate' && (
+              <div className="p-4 space-y-3 border-t border-[#d5ddea]">
                 <button
                   type="button"
                   onClick={generateRandomHalfPuritySheet}
@@ -2940,72 +2998,6 @@ function PrintCenterPage() {
                 <p className="text-[10px] font-semibold text-[#3a5276]">
                   OL1735 Canvas Editor · Production v1.4 · Geometry Lock v1.3
                 </p>
-                {(rowApplied || columnApplied) && (
-                  <div className="grid grid-cols-1 gap-2">
-                    <button
-                      type="button"
-                      onClick={() => {
-                        setRowApplied(false);
-                        setColumnApplied(false);
-                      }}
-                      className="rounded-lg border border-[#d0d9e8] text-[#19345d] text-xs font-black uppercase tracking-wide py-2"
-                    >
-                      Select Another
-                    </button>
-                  </div>
-                )}
-                <button type="button" onClick={clearActiveSlot} className="w-full rounded-lg border border-[#d0d9e8] text-[#19345d] text-xs font-black uppercase tracking-wide py-2 inline-flex items-center justify-center gap-1">
-                  <Eraser size={12} />
-                  Clear Selected
-                </button>
-              </div>
-            )}
-          </div>
-
-          {/* Rename Purity */}
-          <div className="rounded-xl border border-[#d5ddea]">
-            <button
-              type="button"
-              onClick={() => setExpandedSection(expandedSection === 'identity' ? null : 'identity')}
-              className="w-full px-4 py-3 flex items-center justify-between text-sm font-black uppercase tracking-wide rounded-xl text-[#11284a]"
-            >
-              <span>Rename Purity</span>
-              <span className="text-[#3a5276]">{expandedSection === 'identity' ? '−' : '+'}</span>
-            </button>
-            {expandedSection === 'identity' && (
-              <div className="p-4 space-y-3 border-t border-[#d5ddea]">
-                <select
-                  value={purityEditorMode}
-                  onChange={(event) => setPurityEditorMode(event.target.value)}
-                  className="w-full rounded-lg border border-[#d0d9e8] bg-white text-[#19345d] px-3 py-2 text-sm"
-                >
-                  <option value="hplc-dad">HPLC-DAD</option>
-                  <option value="hplc-verified">HPLC-VERIFIED</option>
-                  <option value="custom">Custom</option>
-                </select>
-                <input
-                  type="text"
-                  value={customIdentityText}
-                  onChange={(event) => setCustomIdentityText(normalizePuritySymbol(event.target.value))}
-                  className="w-full rounded-lg border border-[#d0d9e8] bg-white text-[#19345d] px-3 py-2 text-sm"
-                  placeholder="Custom purity text"
-                />
-                <button
-                  type="button"
-                  onClick={() => {
-                    if (purityEditorMode === 'custom') {
-                      setIdentityMode('custom');
-                    } else if (purityEditorMode === 'hplc-dad') {
-                      setIdentityMode('internal');
-                    } else {
-                      setIdentityMode('verified');
-                    }
-                    setExpandedSection(null);
-                  }}
-                  className="w-full rounded-lg bg-brand-orange text-white text-xs font-black uppercase tracking-wide py-2"
-                >
-                  Save
-                </button>
               </div>
             )}
           </div>
