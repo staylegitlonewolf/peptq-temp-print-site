@@ -32,10 +32,11 @@ import {
   DEFAULT_PRIMARY_HEX,
   DEFAULT_SECONDARY_HEX,
 } from '../constants/printCalibration';
+import { LABEL_LOGO_URL } from '../constants/labelTheme';
 import { APPS_SCRIPT_COMMAND_URL } from '../services/api';
 
 const LOGO_ONLY_SLOT_ID = '__logo_only__';
-const LOGO_IMAGE_URL = '/images/label_logo.png';
+const LOGO_IMAGE_URL = LABEL_LOGO_URL;
 const PRINT_CENTER_LAYOUTS_KEY = 'printCenterLayouts';
 const CALIB_STORAGE_KEY = 'printCenterCalibration';
 const CUSTOM_PRODUCTS_KEY = 'printCenterCustomProducts';
@@ -2243,7 +2244,7 @@ function PrintCenterPage() {
             className="mb-3 block hover:opacity-70 transition-opacity"
             title="Back to home"
           >
-            <img src="/images/label_logo.png" alt="PEPTQ" className="max-h-7 w-auto object-contain" />
+            <img src={LOGO_IMAGE_URL} alt="PEPTQ" className="max-h-7 w-auto object-contain" />
           </button>
           <div className="text-[10px] font-black uppercase tracking-widest text-brand-orange leading-tight">OL1735 Canvas Editor</div>
           <div className="text-[10px] font-black uppercase tracking-widest text-brand-orange leading-tight">Production v1.4</div>

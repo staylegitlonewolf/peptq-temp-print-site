@@ -5,7 +5,8 @@ export const LABEL_THEME = {
   white: '#FFFFFF',
 };
 
-export const LABEL_LOGO_URL = '/images/label_logo.png';
+const ASSET_BASE_URL = import.meta.env.BASE_URL || '/';
+export const LABEL_LOGO_URL = `${ASSET_BASE_URL}images/label_logo.png`;
 
 export const LABEL_THEME_RGB = {
   brandBlue: [31, 58, 95],
