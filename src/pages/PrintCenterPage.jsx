@@ -1547,12 +1547,16 @@ function PrintCenterPage() {
       }
 
       const filename = `PEPTQ_OL1735_PrintCenter_${buildPdfTimestamp()}${pdfShowDiagnosticOverlay ? '_GHOST' : ''}.pdf`;
-      if (mode === 'print') {
+      const isMobile = navigator.maxTouchPoints > 0 && !window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+      if (mode === 'print' && !isMobile) {
         doc.autoPrint();
         const blobUrl = doc.output('bloburl');
         window.open(blobUrl, '_blank', 'noopener,noreferrer');
       } else {
         doc.save(filename);
+        if (mode === 'print') {
+          showInPageMessage('PDF saved. Open it in your PDF app to print.', 'success');
+        }
       }
     } finally {
       setIsExportingPdf(false);
