@@ -1,13 +1,44 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" href="./images/label_logo.png" />
-    <title>OL1735 Locked Geometry</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEPTQ Label Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            text-align: center;
+        }
+        #label {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #000;
+            background-color: #fff;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>PEPTQ Label Generator</h1>
+    <form id="labelForm">
+        <label for="labelName">Label Name:</label>
+        <input type="text" id="labelName" required>
+        <button type="submit">Generate Label</button>
+    </form>
+    <div id="label"></div>
+    <script>
+        document.getElementById('labelForm').onsubmit = function(event) {
+            event.preventDefault();
+            const labelName = document.getElementById('labelName').value;
+            document.getElementById('label').innerText = `Generated Label: ${labelName}`;
+        };
+    </script>
+</body>
 </html>
