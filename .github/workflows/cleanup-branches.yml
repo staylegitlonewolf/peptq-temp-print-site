@@ -1,0 +1,55 @@
+name: Cleanup Non-Main Branches
+
+on:
+  workflow_dispatch:
+    inputs:
+      protected_branch:
+        description: 'Branch to keep (will not be deleted)'
+        required: true
+        default: 'main'
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete all branches except protected branch
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const protectedBranch = '${{ inputs.protected_branch }}';
+            let page = 1;
+            let hasMore = true;
+
+            while (hasMore) {
+              const { data: branches } = await github.rest.repos.listBranches({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                per_page: 100,
+                page
+              });
+
+              if (branches.length < 100) {
+                hasMore = false;
+              }
+              page++;
+
+              for (const branch of branches) {
+                if (branch.name === protectedBranch) {
+                  console.log(`Skipping protected branch: ${branch.name}`);
+                  continue;
+                }
+                try {
+                  await github.rest.git.deleteRef({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    ref: `heads/${branch.name}`
+                  });
+                  console.log(`Deleted branch: ${branch.name}`);
+                } catch (error) {
+                  console.log(`Could not delete branch ${branch.name}: ${error.message}`);
+                }
+              }
+            }
